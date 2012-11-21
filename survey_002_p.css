@@ -1,0 +1,217 @@
+.cc09               { /* Common */
+	font            : bold 20pt 'Times New Roman', Book, Georgia, serif;
+	color           : #003333;
+	text-align      : center;
+	}
+.cc10               { /* Common */
+	border          :   0.00pt none #000000;
+	clip            : rect(0.00pt,600.00pt,0.75pt,0.00pt);
+	}
+.cc11               { /* Common */
+	width           : 100%;
+	height          : 100%;
+	padding         :   7.50pt;
+	border-width    :   0px;
+	}
+.cc12               { /* Common */
+	font            : bold 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+.cc13               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	text-align      : right;
+	}
+.cc14               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	padding         :   1.50pt;
+	}
+.cc15               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+.cc16               { /* Common */
+	font            : 8pt 'MS Sans Serif';
+	color           : #000000;
+	padding         :   1.50pt;
+	}
+img#e24             { /* images/survey002003.jpg */
+	position        : absolute;
+	left            : 283.50pt;
+	top             :   7.50pt;
+	width           : 177.75pt;
+	height          : 126.00pt;
+	}
+h1#e23              { /* Registration */
+	position        : absolute;
+	left            : 283.50pt;
+	top             : 138.00pt;
+	width           : 177.75pt;
+	height          :  26.25pt;
+	}
+span#e22            { /* images/survey002002.gif */
+	background      : transparent url(images/survey002002.gif) no-repeat top left;
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 174.75pt;
+	width           : 600.00pt;
+	height          :   0.75pt;
+	}
+span#e21            { /* images/survey002001.gif */
+	background      : transparent url(images/survey002001.gif) no-repeat top left;
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 207.00pt;
+	width           : 600.00pt;
+	height          : 345.00pt;
+	}
+form#f20            { /* default.asp onsubmit="re... */
+	position        : absolute;
+	left            : 278.25pt;
+	top             : 208.50pt;
+	width           : 175.50pt;
+	height          : 177.00pt;
+	}
+legend#e19          { /* Contact Details */
+	position        : absolute;
+	left            :   2.25pt;
+	top             :   2.25pt;
+	width           : 113.25pt;
+	height          :  14.25pt;
+	}
+label#e18           { /* Name */
+	position        : absolute;
+	left            :   0.00pt;
+	top             :  27.75pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+input#e17           { /* Text Name Name  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             :  24.00pt;
+	width           : 113.25pt;
+	}
+label#e16           { /* Password */
+	position        : absolute;
+	left            :   0.00pt;
+	top             :  43.50pt;
+	width           :  67.50pt;
+	height          :  14.25pt;
+	}
+label#e15           { /* City */
+	position        : absolute;
+	left            :   0.00pt;
+	top             :  61.50pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+input#e14           { /* Text City City  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             :  60.00pt;
+	width           : 113.25pt;
+	}
+label#e13           { /* State */
+	position        : absolute;
+	left            :   0.00pt;
+	top             :  79.50pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+input#e12           { /* Text State State  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             :  78.00pt;
+	width           : 113.25pt;
+	}
+label#e11           { /* Postal code */
+	position        : absolute;
+	left            :   0.00pt;
+	top             :  97.50pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+input#e10           { /* Text Zip Postal code  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             :  96.00pt;
+	width           : 113.25pt;
+	}
+label#e9            { /* Phone */
+	position        : absolute;
+	left            :   0.00pt;
+	top             : 115.50pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+input#e8            { /* Text Phone Phone  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             : 114.00pt;
+	width           : 113.25pt;
+	}
+label#e7            { /* E-mail */
+	position        : absolute;
+	left            :   0.00pt;
+	top             : 133.50pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+input#e6            { /* Text Email E-mail  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             : 132.00pt;
+	width           : 113.25pt;
+	}
+label#e5            { /* Country */
+	position        : absolute;
+	left            :   0.00pt;
+	top             : 151.50pt;
+	width           :  67.50pt;
+	height          :  15.00pt;
+	}
+select#e4           { /* Combo Box Country Countr... */
+	position        : absolute;
+	left            :  71.25pt;
+	top             : 150.00pt;
+	width           : 119.25pt;
+	}
+input#e3            { /* Submit Send Details  */
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 173.25pt;
+	width           :  90.75pt;
+	}
+input#e2            { /* Reset Clear Details  */
+	position        : absolute;
+	left            : 100.50pt;
+	top             : 173.25pt;
+	width           :  90.75pt;
+	}
+input#e1            { /* Password password  */
+	position        : absolute;
+	left            :  71.25pt;
+	top             :  42.00pt;
+	width           : 113.25pt;
+	height          :  12.00pt;
+	}
+div#page            { /* Page Holder */
+	background-color: #00ccff;
+	background-image: url(images/survey002b01.jpg);
+	position        : relative;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : auto;
+	margin-right    : auto;
+	}
+body                { /* Page Body */
+	background-color: #00ccff;
+	text-align      : center;
+	}
+
+
+
+/*--- EndOfFile ---*/
