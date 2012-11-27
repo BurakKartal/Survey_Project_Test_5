@@ -98,7 +98,7 @@ label#e16           { /* Password */
 	left            :   0.00pt;
 	top             :  43.50pt;
 	width           :  67.50pt;
-	height          :  20.00pt;
+	height          :  15.00pt;
 	}
 label#e15           { /* City */
 	position        : absolute;
@@ -195,7 +195,7 @@ input#e1            { /* Password password  */
 	left            :  71.25pt;
 	top             :  42.00pt;
 	width           : 113.25pt;
-	height          :  20.00pt;
+	height          :  15.00pt;
 	}
 div#page            { /* Page Holder */
 	background-color: #00ccff;

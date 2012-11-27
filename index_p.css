@@ -161,7 +161,7 @@ label#e10           { /* Password */
 	left            :   9.75pt;
 	top             :  24.75pt;
 	width           :  50.25pt;
-	height          :  20.00pt;
+	height          :  15.00pt;
 	}
 input#e9            { /* Submit Send Details  */
 	position        : absolute;
@@ -174,7 +174,7 @@ input#e8            { /* Password password  */
 	left            :  63.00pt;
 	top             :  22.50pt;
 	width           : 120.75pt;
-	height          :  20.00pt;
+	height          :  15.00pt;
 	}
 div#e7              { /* W */
 	position        : absolute;
