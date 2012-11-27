@@ -79,14 +79,14 @@ input#e22           { /* Submit Search  */
 	left            :   5.25pt;
 	top             :   3.00pt;
 	width           :  54.00pt;
-	height          :  21.00pt;
+	height          :  20.00pt;
 	}
 input#e21           { /* Text q  */
 	position        : absolute;
 	left            :  62.25pt;
 	top             :   4.50pt;
 	width           : 135.75pt;
-	height          :  12.00pt;
+	height          :  18.00pt;
 	}
 input#e20           { /* Hidden as_sitesearch  */
 	position        : absolute;
@@ -155,6 +155,7 @@ input#e11           { /* Text Name Name  */
 	left            :  63.00pt;
 	top             :   5.25pt;
 	width           : 120.75pt;
+        height          :  15.00pt;
 	}
 label#e10           { /* Password */
 	position        : absolute;
@@ -172,7 +173,7 @@ input#e9            { /* Submit Send Details  */
 input#e8            { /* Password password  */
 	position        : absolute;
 	left            :  63.00pt;
-	top             :  22.50pt;
+	top             :  25.00pt;
 	width           : 120.75pt;
 	height          :  15.00pt;
 	}
