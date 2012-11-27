@@ -8,7 +8,7 @@ CREATE TABLE Registration
 (
 	userid int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	username varchar(30) NOT NULL,
-	password int NOT NULL,
+	password varchar(18) NOT NULL,
 	city varchar(30) NOT NULL,
 	states varchar(30) NOT NULL,
 	postalcode int NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE Users
 (
 	userid int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	username varchar(30) NOT NULL,
-	password int NOT NULL,
+	password varchar(18) NOT NULL,
 	email varchar(30) NOT NULL
 );
 
