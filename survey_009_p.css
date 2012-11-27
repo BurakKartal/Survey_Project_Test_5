@@ -1,0 +1,555 @@
+.cc57               { /* Common */
+	font            : bold 20pt 'Times New Roman', Book, Georgia, serif;
+	color           : #003333;
+	text-align      : center;
+	}
+.cc58               { /* Common */
+	border          :   0.00pt none #000000;
+	clip            : rect(0.00pt,600.00pt,0.75pt,0.00pt);
+	}
+.cc59               { /* Common */
+	font            : 14pt 'Times New Roman', Book, Georgia, serif;
+	color           : #d8f7ff;
+	text-align      : center;
+	padding         :   1.50pt;
+	}
+.cc60               { /* Common */
+	font            : 14pt 'Times New Roman', Book, Georgia, serif;
+	color           : #003333;
+	text-align      : center;
+	padding         :   1.50pt;
+	}
+.cc61               { /* Common */
+	border          :   0.00pt none #000000;
+	}
+.cc62               { /* Common */
+	width           : 100%;
+	height          : 100%;
+	padding         :   7.50pt;
+	border-width    :   0px;
+	}
+.cc63               { /* Common */
+	font            : bold 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+.cc64               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	text-align      : right;
+	}
+.cc65               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	padding         :   1.50pt;
+	}
+.cc66               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+.cc67               { /* Common */
+	font            : bold 11pt 'Verdana', 'Lucida Grande', Arial, sans-serif;
+	color           : #0000ff;
+	}
+.cc68               { /* Common */
+	font            : 12pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+img#e71             { /* images/survey009009.jpg */
+	position        : absolute;
+	left            : 283.50pt;
+	top             :   7.50pt;
+	width           : 177.75pt;
+	height          : 126.00pt;
+	}
+h1#e70              { /* MUSIC SURVEY */
+	position        : absolute;
+	left            : 283.50pt;
+	top             : 138.00pt;
+	width           : 177.75pt;
+	height          :  26.25pt;
+	}
+span#e69            { /* images/survey009008.gif */
+	background      : transparent url(images/survey009008.gif) no-repeat top left;
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 174.75pt;
+	width           : 600.00pt;
+	height          :   0.75pt;
+	}
+span#e68            { /* images/survey009007.gif */
+	background      : transparent url(images/survey009007.gif) no-repeat top left;
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 207.00pt;
+	width           : 600.00pt;
+	height          : 345.00pt;
+	}
+div#e67             { /* Categories */
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e66             { /* Car Survey */
+	position        : absolute;
+	left            : 184.50pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e65             { /* Music Survey */
+	position        : absolute;
+	left            : 296.25pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e64             { /* Sport Survey */
+	position        : absolute;
+	left            : 408.00pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e63             { /* Contact Us */
+	position        : absolute;
+	left            : 519.75pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  19.50pt;
+	}
+span#e62            { /* images/survey009006.gif */
+	background      : transparent url(images/survey009006.gif) no-repeat top left;
+	position        : absolute;
+	left            : 228.75pt;
+	top             : 207.00pt;
+	width           :  16.50pt;
+	height          : 345.75pt;
+	}
+form#f61            { /* default.asp onsubmit="re... */
+	position        : absolute;
+	left            : 259.50pt;
+	top             : 206.25pt;
+	width           : 397.50pt;
+	height          : 333.75pt;
+	}
+legend#e60          { /* Personal Details */
+	position        : absolute;
+	left            :  61.50pt;
+	top             :   6.00pt;
+	width           : 209.25pt;
+	height          :  12.75pt;
+	}
+label#e59           { /* Name */
+	position        : absolute;
+	left            :  63.75pt;
+	top             :  24.00pt;
+	width           :  84.75pt;
+	height          :  14.25pt;
+	}
+input#e58           { /* Text Name Name  */
+	position        : absolute;
+	left            : 150.00pt;
+	top             :  22.50pt;
+	width           : 120.75pt;
+	}
+label#e57           { /* E-mail */
+	position        : absolute;
+	left            :  63.75pt;
+	top             :  42.00pt;
+	width           :  84.75pt;
+	height          :  14.25pt;
+	}
+input#e56           { /* Text Email E-mail  */
+	position        : absolute;
+	left            : 150.00pt;
+	top             :  40.50pt;
+	width           : 120.75pt;
+	}
+label#e55           { /* Country */
+	position        : absolute;
+	left            :  63.75pt;
+	top             :  60.00pt;
+	width           :  84.75pt;
+	height          :  14.25pt;
+	}
+select#e54          { /* Combo Box Country Countr... */
+	position        : absolute;
+	left            : 150.00pt;
+	top             :  58.50pt;
+	width           : 126.75pt;
+	}
+label#e53           { /* Gender */
+	position        : absolute;
+	left            :  63.75pt;
+	top             :  78.00pt;
+	width           :  84.75pt;
+	height          :  14.25pt;
+	}
+select#e52          { /* Combo Box Sex Gender  */
+	position        : absolute;
+	left            : 150.00pt;
+	top             :  76.50pt;
+	width           :  62.25pt;
+	}
+label#e51           { /* Age Group */
+	position        : absolute;
+	left            :  63.75pt;
+	top             :  96.00pt;
+	width           :  84.75pt;
+	height          :  14.25pt;
+	}
+select#e50          { /* Combo Box Age_Group Age ... */
+	position        : absolute;
+	left            : 150.00pt;
+	top             :  94.50pt;
+	width           :  77.25pt;
+	}
+label#e49           { /* favourite Music Genres */
+	position        : absolute;
+	left            :  61.50pt;
+	top             : 120.00pt;
+	width           : 192.75pt;
+	height          :  14.25pt;
+	}
+input#e48           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 137.25pt;
+	height          :  13.50pt;
+	}
+label#e47           { /* Alternative */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 138.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e46           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 137.25pt;
+	height          :  13.50pt;
+	}
+label#e45           { /* Blues */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 138.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e44           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 155.25pt;
+	height          :  13.50pt;
+	}
+label#e43           { /* Books & Spoken */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 156.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e42           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 155.25pt;
+	height          :  13.50pt;
+	}
+label#e41           { /* Children's Music */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 156.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e40           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 173.25pt;
+	height          :  13.50pt;
+	}
+label#e39           { /* Classical */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 174.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e38           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 173.25pt;
+	height          :  13.50pt;
+	}
+label#e37           { /* Comedy */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 174.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e36           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 191.25pt;
+	height          :  13.50pt;
+	}
+label#e35           { /* Country */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 192.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e34           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 191.25pt;
+	height          :  13.50pt;
+	}
+label#e33           { /* Easy Listening */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 192.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e32           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 209.25pt;
+	height          :  13.50pt;
+	}
+label#e31           { /* Electronic */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 210.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e30           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 209.25pt;
+	height          :  13.50pt;
+	}
+label#e29           { /* Hip Hop / Rap */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 210.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e28           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 227.25pt;
+	height          :  13.50pt;
+	}
+label#e27           { /* Jazz */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 228.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e26           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 227.25pt;
+	height          :  13.50pt;
+	}
+label#e25           { /* Latin */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 228.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e24           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 245.25pt;
+	height          :  13.50pt;
+	}
+label#e23           { /* Metal */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 246.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e22           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 245.25pt;
+	height          :  13.50pt;
+	}
+label#e21           { /* Pop & Rock */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 246.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e20           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 263.25pt;
+	height          :  13.50pt;
+	}
+label#e19           { /* Urban / R&B */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 264.00pt;
+	width           :  86.25pt;
+	height          :  14.25pt;
+	}
+input#e18           { /* Check Box Favorie_Music_... */
+	position        : absolute;
+	left            : 183.75pt;
+	top             : 263.25pt;
+	height          :  13.50pt;
+	}
+label#e17           { /* World / Folk */
+	position        : absolute;
+	left            : 203.25pt;
+	top             : 264.00pt;
+	width           :  87.00pt;
+	height          :  14.25pt;
+	}
+input#e16           { /* Check Box Contact_Me_Abo... */
+	position        : absolute;
+	left            :  74.25pt;
+	top             : 287.25pt;
+	height          :  13.50pt;
+	}
+label#e15           { /* Contact me from time to ... */
+	position        : absolute;
+	left            :  93.75pt;
+	top             : 283.50pt;
+	width           : 207.75pt;
+	height          :  39.75pt;
+	}
+input#e14           { /* Submit Send Details  */
+	position        : absolute;
+	left            :  69.00pt;
+	top             : 323.25pt;
+	width           :  90.75pt;
+	}
+input#e13           { /* Reset Clear Details  */
+	position        : absolute;
+	left            : 195.00pt;
+	top             : 323.25pt;
+	width           :  90.75pt;
+	}
+form#f12            { /* mailto:your@address.here... */
+	position        : absolute;
+	left            :  81.75pt;
+	top             : 207.00pt;
+	width           : 131.25pt;
+	height          : 309.75pt;
+	}
+legend#e11          { /* Car Survey */
+	position        : absolute;
+	left            :  43.50pt;
+	top             :  61.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e10           { /* Music Survey */
+	position        : absolute;
+	left            :  43.50pt;
+	top             : 109.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e9            { /* Sport Survey */
+	position        : absolute;
+	left            :  43.50pt;
+	top             : 157.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e8            { /* Contact Us */
+	position        : absolute;
+	left            :  43.50pt;
+	top             : 205.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e7            { /* Categories */
+	position        : absolute;
+	left            :  43.50pt;
+	top             :  13.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+span#e6             { /* images/survey009005.jpg */
+	background      : transparent url(images/survey009005.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             :   9.75pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e5             { /* images/survey009004.jpg */
+	background      : transparent url(images/survey009004.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             :  59.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e4             { /* images/survey009003.jpg */
+	background      : transparent url(images/survey009003.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 101.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e3             { /* images/survey009002.jpg */
+	background      : transparent url(images/survey009002.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 152.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e2             { /* images/survey009001.jpg */
+	background      : transparent url(images/survey009001.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 197.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+div#e1              { /* Log Out! */
+	position        : absolute;
+	left            : 129.00pt;
+	top             : 531.75pt;
+	width           :  48.75pt;
+	height          :  16.50pt;
+	}
+div#page            { /* Page Holder */
+	background-color: #00ccff;
+	background-image: url(images/survey009b01.jpg);
+	position        : relative;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : auto;
+	margin-right    : auto;
+	}
+body                { /* Page Body */
+	background-color: #00ccff;
+	text-align      : center;
+	}
+
+
+
+/*--- EndOfFile ---*/
