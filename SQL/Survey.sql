@@ -22,7 +22,7 @@ CREATE TABLE Users
 	userid int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	username varchar(30) NOT NULL,
 	password int NOT NULL,
-	email varchar(30) NOT NULL,
+	email varchar(30) NOT NULL
 );
 
 CREATE TABLE Contact_Details
