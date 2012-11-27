@@ -436,7 +436,7 @@
 </fieldset>
 </form>
 	<div id="e1" class="cc78">
-		<a href="survey_006.php">
+		<a href="logout.php">
 		Log Out!</a>
 	</div>
 </div>
