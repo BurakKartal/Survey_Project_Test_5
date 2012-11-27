@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv='refresh' content='0; url=index.php'>
 	<link rel="stylesheet" href="survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
-	<link rel="stylesheet" href="survey_005_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
+	<link rel="stylesheet" href="wrong_login_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
 	<script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
 
 	
@@ -14,7 +14,12 @@
 
 
 <body>
-
+ <?php
+            session_start();
+            ob_implicit_flush(true);
+            ob_flush();
+            sleep(5);
+            ?>
 <div id="page">
 	<a href="index.html">
 		<img id="e6" name="e6" src="images/survey005004.jpg" title="" alt="survey005004.jpg" align="right" border="0"></a>
@@ -30,11 +35,5 @@
 </fieldset>
 </form>
 </div>
- <?php
-            session_start();
-            ob_implicit_flush(true);
-            ob_flush();
-            sleep(5);
-            ?>
 </body>
 </html>

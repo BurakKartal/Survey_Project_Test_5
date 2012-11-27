@@ -150,7 +150,7 @@
             <form id="f19" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e19" class="cc02">
                     <legend id="e18" class="cc05">
-                        <a href="survey_002.htm">
+                        <a href="registration.htm">
                             Registration</a>
                     </legend>
                 </fieldset>
@@ -158,7 +158,7 @@
             <form id="f17" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e17" class="cc02">
                     <legend id="e16" class="cc05">
-                        <a href="survey_003.htm">
+                        <a href="forgot_password.htm">
                             Forgot Password</a>
                     </legend><br>
                 </fieldset>
@@ -166,7 +166,7 @@
             <form id="f15" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e15" class="cc02">
                     <legend id="e14" class="cc05">
-                        <a href="survey_007.htm">
+                        <a href="home.htm">
                             PLEASE ENTER</a>
                     </legend>
                 </fieldset>
