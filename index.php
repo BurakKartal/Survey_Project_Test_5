@@ -150,7 +150,7 @@
             <form id="f19" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e19" class="cc02">
                     <legend id="e18" class="cc05">
-                        <a href="registration.htm">
+                        <a href="registration.php">
                             Registration</a>
                     </legend>
                 </fieldset>

@@ -10,7 +10,7 @@ if (mysql_num_rows($login) == 1) {
 
     $_SESSION['username'] = $_POST['username'];
     $_SESSION['password'] = $_POST['password'];
-    header('Location: successful_login.php');
+    header('Location: home.php');
 } else {
 
     header('Location: wrong_login.php');
