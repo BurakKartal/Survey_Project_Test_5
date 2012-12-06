@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="index_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
         <script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
         <script src="index_a.js" type="text/javascript"></script>		<!--// Motion Script //-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
 
 
@@ -176,12 +177,12 @@
                     <label id="e12" class="cc06" for="e11">
                         Name
                     </label>
-                    <input id="e11" class="cc07" type="text" name="username" title="Name" size="23"><br>
+                    <input id="e11" class="input-append" placeholder="Name" type="text" name="username" title="Name" size="23"><br>
                     <label id="e10" class="cc06" for="e8">
                         Password
                     </label>
-                    <input id="e9" class="cc06" type="submit" title="Send Details" value="Send Details"><br>
-                    <input id="e8" class="cc04" type="password" name="password" size="23">
+                    <input id="e9"  class="btn btn-primary btn-small" type="submit" title="Send Details" value="Send Details"><br>
+                    <input id="e8" class="input-append" placeholder="Password" type="password" name="password" size="23">
                 </fieldset>
             </form>
             <div id="e7" class="cc08">
