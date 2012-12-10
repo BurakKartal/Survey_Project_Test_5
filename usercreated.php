@@ -3,8 +3,8 @@
 	<title> User Created </title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<meta http-equiv="Content-Style-Type" content="text/css;">
-	<link rel="stylesheet" href="survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
-	<link rel="stylesheet" href="logout_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
+	<link rel="stylesheet" href="css/survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
+	<link rel="stylesheet" href="css/logout_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
 	<script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
 	<meta http-equiv='refresh' content='0; url=index.php'>
 </head>
