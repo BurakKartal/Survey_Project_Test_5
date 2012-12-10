@@ -1,0 +1,389 @@
+.cc69               { /* Common */
+	font            : bold 20pt 'Times New Roman', Book, Georgia, serif;
+	color           : #003333;
+	text-align      : center;
+	}
+.cc70               { /* Common */
+	border          :   0.00pt none #000000;
+	clip            : rect(0.00pt,600.00pt,0.75pt,0.00pt);
+	}
+.cc71               { /* Common */
+	font            : 14pt 'Times New Roman', Book, Georgia, serif;
+	color           : #d8f7ff;
+	text-align      : center;
+	padding         :   1.50pt;
+	}
+.cc72               { /* Common */
+	font            : 14pt 'Times New Roman', Book, Georgia, serif;
+	color           : #003333;
+	text-align      : center;
+	padding         :   1.50pt;
+	}
+.cc73               { /* Common */
+	border          :   0.00pt none #000000;
+	}
+.cc74               { /* Common */
+	width           : 100%;
+	height          : 100%;
+	padding         :   7.50pt;
+	border-width    :   0px;
+	}
+.cc75               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+.cc76               { /* Common */
+	font            : 10pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	padding         :   1.50pt;
+	}
+.cc77               { /* Common */
+	font            : bold 11pt 'Verdana', 'Lucida Grande', Arial, sans-serif;
+	color           : #0000ff;
+	}
+.cc78               { /* Common */
+	font            : 12pt 'Arial', Helvetica, sans-serif;
+	color           : #000000;
+	}
+img#e47             { /* images/survey010009.gif */
+	position        : absolute;
+	left            : 283.50pt;
+	top             :   7.50pt;
+	width           : 177.75pt;
+	height          : 126.00pt;
+	}
+h1#e46              { /* SPORT SURVEY */
+	position        : absolute;
+	left            : 283.50pt;
+	top             : 138.00pt;
+	width           : 177.75pt;
+	height          :  26.25pt;
+	}
+span#e45            { /* images/survey010008.gif */
+	background      : transparent url(images/survey010008.gif) no-repeat top left;
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 174.75pt;
+	width           : 600.00pt;
+	height          :   0.75pt;
+	}
+span#e44            { /* images/survey010007.gif */
+	background      : transparent url(images/survey010007.gif) no-repeat top left;
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 207.00pt;
+	width           : 600.00pt;
+	height          : 345.00pt;
+	}
+div#e43             { /* Categories */
+	position        : absolute;
+	left            :  72.75pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e42             { /* Car Survey */
+	position        : absolute;
+	left            : 184.50pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e41             { /* Music Survey */
+	position        : absolute;
+	left            : 296.25pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e40             { /* Sport Survey */
+	position        : absolute;
+	left            : 408.00pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+	}
+div#e39             { /* Contact Us */
+	position        : absolute;
+	left            : 519.75pt;
+	top             : 178.50pt;
+	width           : 102.75pt;
+	height          :  19.50pt;
+	}
+span#e38            { /* images/survey010006.gif */
+	background      : transparent url(images/survey010006.gif) no-repeat top left;
+	position        : absolute;
+	left            : 228.00pt;
+	top             : 206.25pt;
+	width           :  16.50pt;
+	height          : 345.75pt;
+	}
+form#f37            { /* default.asp onsubmit="re... */
+	position        : absolute;
+	left            : 257.25pt;
+	top             : 208.50pt;
+	width           : 399.75pt;
+	height          : 327.00pt;
+	}
+label#e36           { /* What is your sex? */
+	position        : absolute;
+	left            :   4.50pt;
+	top             :  65.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e35          { /* Combo Box Sex Gender  */
+	position        : absolute;
+	left            : 250.50pt;
+	top             :  63.75pt;
+	width           :  63.75pt;
+	}
+label#e34           { /* What is your age? */
+	position        : absolute;
+	left            :   4.50pt;
+	top             :  83.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e33          { /* Combo Box Age_Group Age ... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             :  81.75pt;
+	width           :  77.25pt;
+	}
+label#e32           { /* What country do you live... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 101.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e31          { /* Combo Box Country Countr... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             :  99.75pt;
+	width           : 126.75pt;
+	}
+label#e30           { /* Are you a member of a sp... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 119.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e29          { /* Combo Box Sports_Club_Me... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 117.75pt;
+	width           :  63.75pt;
+	}
+label#e28           { /* Who is your favorite ath... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 137.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+input#e27           { /* Text Favorite_Athlete Wh... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 135.75pt;
+	width           : 120.75pt;
+	}
+label#e26           { /* What is your favorite sp... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 155.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e25          { /* Combo Box Favorite_Sport... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 153.75pt;
+	width           : 126.75pt;
+	}
+label#e24           { /* How often do you compete... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 173.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e23          { /* Combo Box How_Often_Do_Y... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 171.75pt;
+	width           : 126.75pt;
+	}
+label#e22           { /* What is your favorite sp... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 191.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e21          { /* Combo Box Favorite_Sport... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 189.75pt;
+	width           : 126.75pt;
+	}
+label#e20           { /* How often do you watch s... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 209.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e19          { /* Combo Box How_Often_Do_Y... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 207.75pt;
+	width           : 126.75pt;
+	}
+label#e18           { /* How often do you attend ... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 227.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e17          { /* Combo Box How_Often_Do_Y... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 225.75pt;
+	width           : 126.75pt;
+	}
+label#e16           { /* How often do you read sp... */
+	position        : absolute;
+	left            :   4.50pt;
+	top             : 245.25pt;
+	width           : 246.00pt;
+	height          :  14.25pt;
+	}
+select#e15          { /* Combo Box How_Often_Do_Y... */
+	position        : absolute;
+	left            : 250.50pt;
+	top             : 243.75pt;
+	width           : 126.75pt;
+	}
+input#e14           { /* Submit Send Details  */
+	position        : absolute;
+	left            :  73.50pt;
+	top             : 273.75pt;
+	width           :  90.75pt;
+	}
+input#e13           { /* Reset Clear Details  */
+	position        : absolute;
+	left            : 205.50pt;
+	top             : 273.75pt;
+	width           :  90.75pt;
+	}
+form#f12            { /* mailto:your@address.here... */
+	position        : absolute;
+	left            :  81.75pt;
+	top             : 207.00pt;
+	width           : 131.25pt;
+	height          : 300.75pt;
+	}
+legend#e11          { /* Car Survey */
+	position        : absolute;
+	left            :  43.50pt;
+	top             :  61.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e10           { /* Music Survey */
+	position        : absolute;
+	left            :  43.50pt;
+	top             : 109.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e9            { /* Sport Survey */
+	position        : absolute;
+	left            :  43.50pt;
+	top             : 157.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e8            { /* Contact Us */
+	position        : absolute;
+	left            :  43.50pt;
+	top             : 205.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+label#e7            { /* Categories */
+	position        : absolute;
+	left            :  43.50pt;
+	top             :  13.50pt;
+	width           : 102.00pt;
+	height          :  15.75pt;
+	}
+span#e6             { /* images/survey010005.jpg */
+	background      : transparent url(images/survey010005.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             :   9.75pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e5             { /* images/survey010004.jpg */
+	background      : transparent url(images/survey010004.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             :  59.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e4             { /* images/survey010003.jpg */
+	background      : transparent url(images/survey010003.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 101.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e3             { /* images/survey010002.jpg */
+	background      : transparent url(images/survey010002.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 152.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+span#e2             { /* images/survey010001.jpg */
+	background      : transparent url(images/survey010001.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   6.75pt;
+	top             : 197.25pt;
+	width           :  22.50pt;
+	height          :  22.50pt;
+	}
+div#e1              { /* Log Out! */
+	position        : absolute;
+	left            : 129.00pt;
+	top             : 531.75pt;
+	width           :  48.75pt;
+	height          :  16.50pt;
+	}
+div#page            { /* Page Holder */
+	background-color: #00ccff;
+	background-image: url(images/survey010b01.jpg);
+	position        : relative;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : auto;
+	margin-right    : auto;
+	}
+body                { /* Page Body */
+	background-color: #00ccff;
+	text-align      : center;
+	}
+
+
+
+/*--- EndOfFile ---*/
