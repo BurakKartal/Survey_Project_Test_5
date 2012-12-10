@@ -159,7 +159,7 @@
             <form id="f17" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e17" class="cc02">
                     <legend id="e16" class="cc05">
-                        <a href="forgot_password.htm">
+                        <a href="forgot_password.php">
                             Forgot Password</a>
                     </legend><br>
                 </fieldset>
@@ -167,7 +167,7 @@
             <form id="f15" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e15" class="cc02">
                     <legend id="e14" class="cc05">
-                        <a href="home.htm">
+                        <a href="home.php">
                             PLEASE ENTER</a>
                     </legend>
                 </fieldset>

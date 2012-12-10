@@ -11,7 +11,6 @@
 
 <body>
 <div id="page">
-	<a href="index.html">
 		<img id="e71" name="e71" src="images/survey009009.jpg" title="" alt="survey009009.jpg" align="right" border="0"></a>
 	<h1 id="e70" class="cc57">
 		MUSIC SURVEY
@@ -31,7 +30,7 @@
 		Sport Survey
 	</div>
 	<div id="e63" class="cc60">
-		<a class="" href="contact_us.htm">
+		<a class="" href="contact_us.php">
 		Contact Us</a>
 	</div>
 	<span id="e62" class="cc61"></span>
@@ -396,11 +395,11 @@
 		Sport Survey
 	</label><br>
 	<label id="e8" class="cc67">
-		<a href="contact_us.htm">
+		<a href="contact_us.php">
 		Contact Us</a>
 	</label>
 	<label id="e7" class="cc67">
-		<a href="home.htm">
+		<a href="home.php">
 		Categories</a>
 	</label>
 	<span id="e6"></span>

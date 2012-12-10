@@ -13,7 +13,6 @@
 <body>
 
 <div id="page">
-	<a href="index.html">
 		<img id="e6" name="e6" src="images/survey006004.jpg" title="" alt="survey006004.jpg" align="right" border="0"></a>
 	<div id="e5" class="cc30">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log Out !
@@ -22,7 +21,6 @@
 	<span id="e3"></span>
 <form id="f2" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
 <fieldset id="e2" class="cc32">
-	<a href="index.html">
 		<img id="e1" name="e1" src="images/survey006001.jpg" title="" alt="survey006001.jpg" align="right" border="0"></a>
 </fieldset>
 </form>

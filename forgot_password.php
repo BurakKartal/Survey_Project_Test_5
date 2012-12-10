@@ -11,7 +11,6 @@
 
 <body>
 <div id="page">
-	<a href="index.html">
 		<img id="e10" name="e10" src="images/survey003003.gif" title="" alt="survey003003.gif" align="right" border="0"></a>
 	<h1 id="e9" class="cc17">
 		Forgot Password?

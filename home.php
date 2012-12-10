@@ -11,7 +11,6 @@
 
 <body>
 <div id="page">
-	<a href="index.html">
 		<img id="e42" name="e42" src="images/survey007009.jpg" title="" alt="survey007009.jpg" align="right" border="0"></a>
 	<h1 id="e41" class="cc33">
 		SURVEYS
@@ -31,7 +30,7 @@
 		Sport Survey
 	</div>
 	<div id="e34" class="cc36">
-		<a class="" href="contact_us.htm">
+		<a class="" href="contact_us.php">
 		Contact Us</a>
 	</div>
 	<span id="e33" class="cc37"></span>
@@ -319,23 +318,23 @@ Enter Comments here...
 <form id="f12" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
 <fieldset id="e12" class="cc38">
 	<legend id="e11" class="cc43">
-		<a href="car_survey.htm">
+		<a href="car_survey.php">
 		Car Survey</a>
 	</legend><br>
 	<label id="e10" class="cc43">
-		<a href="music_survey.htm">
+		<a href="music_survey.php">
 		Music Survey</a>
 	</label><br>
 	<label id="e9" class="cc43">
-		<a href="sport_survey.htm">
+		<a href="sport_survey.php">
 		Sport Survey</a>
 	</label><br>
 	<label id="e8" class="cc43">
-		<a href="contact_us.htm">
+		<a href="contact_us.php">
 		Contact Us</a>
 	</label>
 	<label id="e7" class="cc43">
-		<a href="index.html">
+		<a href="home.php">
 		Home</a>
 	</label>
 	<span id="e6"></span>

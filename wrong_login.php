@@ -16,7 +16,7 @@
 <body>
 
 <div id="page">
-	<a href="index.html">
+	
 		<img id="e6" name="e6" src="images/survey005004.jpg" title="" alt="survey005004.jpg" align="right" border="0"></a>
 	<h1 id="e5" class="cc27">
 		Something Wrong!
@@ -25,7 +25,7 @@
 	<span id="e3"></span>
 <form id="f2" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
 <fieldset id="e2" class="cc29">
-	<a href="index.html">
+	
 		<img id="e1" name="e1" src="images/survey005001.jpg" title="" alt="survey005001.jpg" align="right" border="0"></a>
 </fieldset>
 </form>

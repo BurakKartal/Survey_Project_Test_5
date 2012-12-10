@@ -13,7 +13,6 @@
 <body>
 
 <div id="page">
-	<a href="index.html">
 		<img id="e6" name="e6" src="images/survey004004.jpg" title="" alt="survey004004.jpg" align="right" border="0"></a>
 	<div id="e5" class="cc30">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User Created !

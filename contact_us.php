@@ -11,7 +11,6 @@
 
 <body>
 <div id="page">
-	<a href="index.html">
 		<img id="e25" name="e25" src="images/survey011004.gif" title="" alt="survey011004.gif" align="right" border="0"></a>
 	<h1 id="e24" class="cc79">
 		SURVEYS
@@ -19,7 +18,7 @@
 	<span id="e23" class="cc80"></span>
 	<span id="e22"></span>
 	<div id="e21" class="cc81">
-		<a class="" href="home.htm">
+		<a class="" href="home.php">
 		Categories</a>
 	</div>
 	<div id="e20" class="cc81">

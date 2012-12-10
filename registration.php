@@ -11,7 +11,6 @@
 
     <body>
         <div id="page">
-            <a href="index.html">
                 <img id="e24" name="e24" src="images/survey002003.jpg" title="" alt="survey002003.jpg" align="right" border="0"></a>
             <h1 id="e23" class="cc09">
                 Registration
