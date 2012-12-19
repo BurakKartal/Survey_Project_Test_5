@@ -37,7 +37,7 @@
                     Contact Us</a>
             </div>
             <span id="e46" class="cc49"></span>
-            <form id="f45" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f45" action="car_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e45" class="cc50">
                     <legend id="e44" class="cc51">
                         Personal Details
@@ -266,7 +266,7 @@
                         <option> Tobago</option>
                         <option> Trinidad</option>
                         <option> Tunisia</option>
-                        <option> Turkey</option>
+                        <option selected="selected"> Turkey</option>
                         <option> Turkmenistan</option>
                         <option> Turks</option>
                         <option> Tugalu</option>
@@ -274,7 +274,7 @@
                         <option> Ukraine</option>
                         <option> United Arab Emirates</option>
                         <option> United Kingdom</option>
-                        <option selected="selected">United States</option>
+                        <option> United States</option>
                         <option> Uruguay</option>
                         <option> USSR (former)</option>
                         <option> Uzbekistan</option>

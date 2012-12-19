@@ -65,7 +65,23 @@ CREATE TABLE Music_Survey
         country varchar(30),
         gender varchar(30),
         agegroup varchar(30),
-        musicgenres varchar(30)
+        Alternative varchar(30),
+        Blues varchar(30),
+        BooksandSpoken varchar(30),
+        ChildrensMusic varchar(30),
+        Classical varchar(30),
+        Comedy varchar(30),
+        Countrytype varchar(30),
+        EasyListening varchar(30),
+        Electronic varchar(30),
+        HipHopRap varchar(30),
+        Jazz varchar(30),
+        Latin varchar(30),
+        Metal varchar(30),
+        PopandRock varchar(30),
+        UrbanRnB varchar(30),
+        WorldFolk varchar(30),
+        ContactMeAboutMusic varchar(30)
 );
 
 CREATE TABLE Sport_Survey

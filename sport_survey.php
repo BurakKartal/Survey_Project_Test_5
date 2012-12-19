@@ -37,7 +37,7 @@
                     Contact Us</a>
             </div>
             <span id="e38" class="cc73"></span>
-            <form id="f37" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f37" action="sport_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e37" class="cc74">
                     <label id="e36" class="cc75" for="e35">
                         What is your sex?
@@ -274,7 +274,7 @@
                         <option> Tobago</option>
                         <option> Trinidad</option>
                         <option> Tunisia</option>
-                        <option> Turkey</option>
+                        <option selected="selected"> Turkey</option>
                         <option> Turkmenistan</option>
                         <option> Turks</option>
                         <option> Tugalu</option>
@@ -282,7 +282,7 @@
                         <option> Ukraine</option>
                         <option> United Arab Emirates</option>
                         <option> United Kingdom</option>
-                        <option selected="selected">United States</option>
+                        <option> United States</option>
                         <option> Uruguay</option>
                         <option> USSR (former)</option>
                         <option> Uzbekistan</option>

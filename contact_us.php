@@ -66,7 +66,7 @@
                     }
                 </script>
             </div>
-            <form id="f13" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f13" action="contact_us_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e13" class="cc85">
                     <legend id="e12" class="cc86">
                         Name

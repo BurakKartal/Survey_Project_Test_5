@@ -37,7 +37,7 @@
                     Contact Us</a>
             </div>
             <span id="e62" class="cc61"></span>
-            <form id="f61" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f61" action="music_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e61" class="cc62">
                     <legend id="e60" class="cc63">
                         Personal Details
@@ -266,7 +266,7 @@
                         <option> Tobago</option>
                         <option> Trinidad</option>
                         <option> Tunisia</option>
-                        <option> Turkey</option>
+                        <option  selected="selected"> Turkey</option>
                         <option> Turkmenistan</option>
                         <option> Turks</option>
                         <option> Tugalu</option>
@@ -274,7 +274,7 @@
                         <option> Ukraine</option>
                         <option> United Arab Emirates</option>
                         <option> United Kingdom</option>
-                        <option selected="selected">United States</option>
+                        <option> United States</option>
                         <option> Uruguay</option>
                         <option> USSR (former)</option>
                         <option> Uzbekistan</option>
@@ -314,71 +314,71 @@
                     <label id="e49" class="cc63">
                         favourite Music Genres
                     </label><br>
-                    <input id="e48" class="cc66" type="checkbox" name="Favorie_Music_Alternative" title="Alternative">
+                    <input id="e48" class="cc66" type="checkbox" value=1 name="Favorie_Music_Alternative" title="Alternative">
                     <label id="e47" class="cc66" for="e48">
                         Alternative
                     </label>
-                    <input id="e46" class="cc66" type="checkbox" name="Favorie_Music_Blues" title="Blues">
+                    <input id="e46" class="cc66" type="checkbox" value=1 name="Favorie_Music_Blues" title="Blues">
                     <label id="e45" class="cc66" for="e46">
                         Blues
                     </label><br>
-                    <input id="e44" class="cc66" type="checkbox" name="Favorie_Music_Books_and_Spoken" title="Books & Spoken">
+                    <input id="e44" class="cc66" type="checkbox" value=1 name="Favorie_Music_Books_and_Spoken" title="Books & Spoken">
                     <label id="e43" class="cc66" for="e44">
                         Books & Spoken
                     </label>
-                    <input id="e42" class="cc66" type="checkbox" name="Favorie_Music_Childrens_Music" title="Children's Music">
+                    <input id="e42" class="cc66" type="checkbox" value=1 name="Favorie_Music_Childrens_Music" title="Children's Music">
                     <label id="e41" class="cc66" for="e42">
                         Children's Music
                     </label><br>
-                    <input id="e40" class="cc66" type="checkbox" name="Favorie_Music_Classical" title="Classical">
+                    <input id="e40" class="cc66" type="checkbox" value=1 name="Favorie_Music_Classical" title="Classical">
                     <label id="e39" class="cc66" for="e40">
                         Classical
                     </label>
-                    <input id="e38" class="cc66" type="checkbox" name="Favorie_Music_Comedy" title="Comedy">
+                    <input id="e38" class="cc66" type="checkbox" value=1 name="Favorie_Music_Comedy" title="Comedy">
                     <label id="e37" class="cc66" for="e38">
                         Comedy
                     </label><br>
-                    <input id="e36" class="cc66" type="checkbox" name="Favorie_Music_Country" title="Country">
+                    <input id="e36" class="cc66" type="checkbox" value=1 name="Favorie_Music_Country" title="Country">
                     <label id="e35" class="cc66" for="e36">
                         Country
                     </label>
-                    <input id="e34" class="cc66" type="checkbox" name="Favorie_Music_Easy_Listening" title="Easy Listening">
+                    <input id="e34" class="cc66" type="checkbox" value=1 name="Favorie_Music_Easy_Listening" title="Easy Listening">
                     <label id="e33" class="cc66" for="e34">
                         Easy Listening
                     </label><br>
-                    <input id="e32" class="cc66" type="checkbox" name="Favorie_Music_Electronic" title="Electronic">
+                    <input id="e32" class="cc66" type="checkbox" value=1 name="Favorie_Music_Electronic" title="Electronic">
                     <label id="e31" class="cc66" for="e32">
                         Electronic
                     </label>
-                    <input id="e30" class="cc66" type="checkbox" name="Favorie_Music_Hip_Hop_Rap" title="Hip Hop / Rap">
+                    <input id="e30" class="cc66" type="checkbox" value=1 name="Favorie_Music_Hip_Hop_Rap" title="Hip Hop / Rap">
                     <label id="e29" class="cc66" for="e30">
                         Hip Hop / Rap
                     </label><br>
-                    <input id="e28" class="cc66" type="checkbox" name="Favorie_Music_Jazz" title="Jazz">
+                    <input id="e28" class="cc66" type="checkbox" value=1 name="Favorie_Music_Jazz" title="Jazz">
                     <label id="e27" class="cc66" for="e28">
                         Jazz
                     </label>
-                    <input id="e26" class="cc66" type="checkbox" name="Favorie_Music_Latin" title="Latin">
+                    <input id="e26" class="cc66" type="checkbox" value=1 name="Favorie_Music_Latin" title="Latin">
                     <label id="e25" class="cc66" for="e26">
                         Latin
                     </label><br>
-                    <input id="e24" class="cc66" type="checkbox" name="Favorie_Music_Metal" title="Metal">
+                    <input id="e24" class="cc66" type="checkbox" value=1 name="Favorie_Music_Metal" title="Metal">
                     <label id="e23" class="cc66" for="e24">
                         Metal
                     </label>
-                    <input id="e22" class="cc66" type="checkbox" name="Favorie_Music_Pop_and_Rock" title="Pop & Rock">
+                    <input id="e22" class="cc66" type="checkbox" value=1 name="Favorie_Music_Pop_and_Rock" title="Pop & Rock">
                     <label id="e21" class="cc66" for="e22">
                         Pop & Rock
                     </label><br>
-                    <input id="e20" class="cc66" type="checkbox" name="Favorie_Music_Urban_RnB" title="Urban / R&B">
+                    <input id="e20" class="cc66" type="checkbox" value=1 name="Favorie_Music_Urban_RnB" title="Urban / R&B">
                     <label id="e19" class="cc66" for="e20">
                         Urban / R&B
                     </label>
-                    <input id="e18" class="cc66" type="checkbox" name="Favorie_Music_World_Folk" title="World / Folk">
+                    <input id="e18" class="cc66" type="checkbox" value=1 name="Favorie_Music_World_Folk" title="World / Folk">
                     <label id="e17" class="cc66" for="e18">
                         World / Folk
                     </label><br>
-                    <input id="e16" class="cc66" type="checkbox" name="Contact_Me_About_Music" title="Contact me from time to time about music in my selected genres." checked="checked">
+                    <input id="e16" class="cc66" type="checkbox" value=1 name="Contact_Me_About_Music" title="Contact me from time to time about music in my selected genres." checked="checked">
                     <label id="e15" class="cc66">
                         Contact me from time to time about music in my selected genres.
                     </label><br>
