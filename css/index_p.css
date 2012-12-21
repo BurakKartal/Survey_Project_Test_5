@@ -1,3 +1,12 @@
+.heading1   { /* Heading */
+    font            : bold 50pt 'MS Sans Serif';
+    color           : #A0A0A0;
+    text-align      : center;
+    
+}
+
+
+
 .cc01               { /* Common */
 	border          :   0.00pt none #000000;
 	clip            : rect(0.00pt,202.50pt,0.75pt,0.00pt);
@@ -35,22 +44,7 @@
 	font            : italic bold 36pt 'Times New Roman', Book, Georgia, serif;
 	color           : #000000;
 	}
-span#e27            { /* images/survey001002.jpg */
-	background      : transparent url(images/survey001002.jpg) no-repeat top left;
-	position        : absolute;
-	left            : 291.75pt;
-	top             :  45.00pt;
-	width           : 161.25pt;
-	height          : 193.50pt;
-	}
-span#e26            { /* images/survey001001.gif */
-	background      : transparent url(images/survey001001.gif) no-repeat top left;
-	position        : absolute;
-	left            : 273.00pt;
-	top             : 304.50pt;
-	width           : 202.50pt;
-	height          :   0.75pt;
-	}
+
 div#e25             {
 	position        : absolute;
 	left            : 663.75pt;
@@ -65,22 +59,7 @@ div#e24             {
 	width           :  72.00pt;
 	height          :  15.00pt;
 	}
-form#f23            { /* http://www.google.co.uk/... */
-	position        : absolute;
-	left            :  24.75pt;
-	top             :  12.00pt;
-	width           : 198.75pt;
-	height          :  43.50pt;
-	}
-input#e22           { /* Submit Search  */
-	background-color: #c0c0c0;
-	background-image: url(images/skew1.gif);
-	position        : absolute;
-	left            :   5.25pt;
-	top             :   3.00pt;
-	width           :  54.00pt;
-	height          :  20.00pt;
-	}
+
 input#e21           { /* Text q  */
 	position        : absolute;
 	left            :  62.25pt;
@@ -145,99 +124,119 @@ form#f13            { /* default.asp onsubmit="re... */
 	}
 label#e12           { /* Name */
 	position        : absolute;
-	left            :  22.50pt;
-	top             :   6.75pt;
+	left            :  28.50pt;
+	top             :   5.75pt;
 	width           :  36.75pt;
 	height          :  14.25pt;
 	}
 input#e11           { /* Text Name Name  */
 	position        : absolute;
 	left            :  63.00pt;
-	top             :   5.25pt;
+	top             :   2.25pt;
 	width           : 120.75pt;
-        height          :  15.00pt;
+        height          :  20.00pt;
 	}
 label#e10           { /* Password */
 	position        : absolute;
 	left            :   9.75pt;
-	top             :  24.75pt;
+	top             :  27.75pt;
 	width           :  50.25pt;
 	height          :  15.00pt;
 	}
 input#e9            { /* Submit Send Details  */
 	position        : absolute;
 	left            : 195.00pt;
-	top             :   4.50pt;
+	top             :   6.50pt;
 	width           :  79.50pt;
+        height          :  35.00pt;/*Buton size*/
 	}
 input#e8            { /* Password password  */
 	position        : absolute;
 	left            :  63.00pt;
 	top             :  25.00pt;
 	width           : 120.75pt;
-	height          :  15.00pt;
+	height          :  20.00pt;
 	}
 div#e7              { /* W */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 288.75pt;
 	top             : -42.75pt;
 	width           :  35.25pt;
 	height          :  42.75pt;
 	}
 div#e6              { /* e */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 324.75pt;
 	top             : -42.75pt;
 	width           :  24.00pt;
 	height          :  42.75pt;
 	}
 div#e5              { /* l */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 346.50pt;
 	top             : -42.75pt;
 	width           :  12.75pt;
 	height          :  42.75pt;
 	}
 div#e4              { /* c */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 358.50pt;
 	top             : -42.75pt;
 	width           :  24.00pt;
 	height          :  42.75pt;
 	}
 div#e3              { /* o */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 381.75pt;
 	top             : -42.75pt;
 	width           :  24.00pt;
 	height          :  42.75pt;
 	}
 div#e2              { /* m */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 405.75pt;
 	top             : -42.75pt;
 	width           :  33.75pt;
 	height          :  42.75pt;
 	}
 div#e1              { /* e */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 440.25pt;
 	top             : -42.75pt;
 	width           :  24.00pt;
 	height          :  42.75pt;
 	}
 div#page            { /* Page Holder */
-	background-color: #00ccff;
-	background-image: url(images/survey001b01.jpg);
+	
+	
 	position        : relative;
+        background-size: 100% 100%;
+        min-height: 700px;
 	width           : 745.50pt;
 	height          : 576.00pt;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
-	}
+        
+    	}
+        button1 div.sociable {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}    
+        
+        
+        
 body                { /* Page Body */
-	background-color: #00ccff;
+	background-image:url(images/survey001002.jpg);
 	text-align      : center;
 	}
 

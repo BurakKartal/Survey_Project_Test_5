@@ -1,3 +1,6 @@
+<?php
+require_once('/securelogin.php');
+?>
 <html lang="en">
     <head>
         <title> CONTACT US </title>
@@ -5,39 +8,60 @@
         <meta http-equiv="Content-Style-Type" content="text/css;">
         <link rel="stylesheet" href="css/survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
         <link rel="stylesheet" href="css/contact_us_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
-        <script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <script src="js/survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
 
 
     <body>
-        <?php
-        require_once('/securelogin.php');
-        ?>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Interviewer</a>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right">
+                            <a href="logout.php" class="navbar-link">Logout</a>
+                        </p>
+                        <ul class="nav">
+                            <li class="active"><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
+                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
+                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
         <div id="page">
-            <img id="e25" name="e25" src="images/survey011004.gif" title="" alt="survey011004.gif" align="right" border="0"></a>
+
+            <!--Contect us pic -->	
             <h1 id="e24" class="cc79">
-                SURVEYS
+                <span class="label label-important"> <center>SURVEYS</center></span>
             </h1>
             <span id="e23" class="cc80"></span>
             <span id="e22"></span>
             <div id="e21" class="cc81">
-                <a class="" href="home.php">
-                    Categories</a>
+
+                <span class="label label-warning"> <center>Categories</center></span></a>
             </div>
             <div id="e20" class="cc81">
-                Car Survey
+                <span class="label label-warning"> <center>Car Survey</center></span>
             </div>
             <div id="e19" class="cc81">
-                Music Survey
+                <span class="label label-warning"> <center>Music Survey</center></span>
             </div>
             <div id="e18" class="cc81">
-                Sport Survey
+                <span class="label label-warning"> <center>Sport Survey</center></span>
             </div>
             <div id="e17" class="cc82">
-                Contact Us
+                <span class="label label-warning"> <center>Contact Us</center></span>
             </div>
             <h4 id="e16" class="cc83">
-                Contact Us
+                <span class="label label-important"> <center>Contact Us</center></span>
             </h4>
             <h6 id="e15" class="cc84"></h6>
             <div id="e14">
@@ -66,38 +90,36 @@
                     }
                 </script>
             </div>
-            <form id="f13" action="contact_us_result.php" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f13" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e13" class="cc85">
                     <legend id="e12" class="cc86">
-                        Name
+                        <span class="label label-inverse"> <center>Name</center></span>
                     </legend><br>
                     <input id="e11" class="cc87" type="text" name="Name" title="Name" size="36"><br>
                     <label id="e10" class="cc86">
-                        E-mail
+                        <span class="label label-inverse"> <center>E-mail</center></span>
                     </label><br>
                     <input id="e9" class="cc87" type="text" name="Email" title="E-mail" size="36"><br>
                     <label id="e8" class="cc86">
-                        Address
+                        <span class="label label-inverse"> <center>Address</center></span>
                     </label><br>
                     <input id="e7" class="cc87" type="text" name="Address" title="E-mail" size="36"><br>
                     <label id="e6" class="cc86">
-                        Comments
+                        <span class="label label-inverse"> <center>Comments</center></span>
                     </label><br>
                     <textarea id="e5" class="cc87" name="Comments" title="Comments" rows="2" cols="28">
 Enter Comments here...
                     </textarea><br>
-                    <input id="e4" class="cc88" type="submit" title="Send Details" value="Send Details">
+
+                    <input id="e4"class="btn btn-primary btn-small" type="submit" title="Send Details" value="Send Details">
                 </fieldset>
             </form>
             <div id="e3" class="cc89">
                 <a href="http://www.khas.edu.tr/">
-                    Kadir Has University</a>
+                    <span class="label label-important"> <center>Kadir Has University</center></span></a>
             </div>
             <span id="e2" class="cc90"></span>
-            <div id="e1" class="cc89">
-                <a href="logout.php">
-                    Log Out!</a>
-            </div>
+
         </div>
     </body>
 </html>

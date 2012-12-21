@@ -54,36 +54,17 @@
 	font            : 12pt 'Arial', Helvetica, sans-serif;
 	color           : #000000;
 	}
-img#e42             { /* images/survey007009.jpg */
-	position        : absolute;
-	left            : 283.50pt;
-	top             :   7.50pt;
-	width           : 177.75pt;
-	height          : 126.00pt;
-	}
+
 h1#e41              { /* SURVEYS */
-	position        : absolute;
+	font            : bold 20pt 'Arial', Helvetica, sans-serif;
+        position        : absolute;
 	left            : 283.50pt;
 	top             : 138.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
 	}
-span#e40            { /* images/survey007008.gif */
-	background      : transparent url(images/survey007008.gif) no-repeat top left;
-	position        : absolute;
-	left            :  72.75pt;
-	top             : 174.75pt;
-	width           : 600.00pt;
-	height          :   0.75pt;
-	}
-span#e39            { /* images/survey007007.gif */
-	background      : transparent url(images/survey007007.gif) no-repeat top left;
-	position        : absolute;
-	left            :  72.75pt;
-	top             : 207.00pt;
-	width           : 600.00pt;
-	height          : 345.00pt;
-	}
+
+
 div#e38             { /* Categories */
 	position        : absolute;
 	left            :  72.75pt;
@@ -119,8 +100,8 @@ div#e34             { /* Contact Us */
 	width           : 102.75pt;
 	height          :  19.50pt;
 	}
-span#e33            { /* images/survey007006.gif */
-	background      : transparent url(images/survey007006.gif) no-repeat top left;
+span#e33            { /* images/survey007006.gif  divided the list for the questions*/
+	/*background      : transparent url(images/survey007006.gif) no-repeat top left;*/
 	position        : absolute;
 	left            : 228.00pt;
 	top             : 207.00pt;
@@ -301,7 +282,7 @@ label#e7            { /* Home */
 	height          :  15.75pt;
 	}
 span#e6             { /* images/survey007005.jpg */
-	background      : transparent url(images/survey007005.jpg) no-repeat top left;
+	
 	position        : absolute;
 	left            :   6.75pt;
 	top             :   9.75pt;
@@ -309,7 +290,7 @@ span#e6             { /* images/survey007005.jpg */
 	height          :  22.50pt;
 	}
 span#e5             { /* images/survey007004.jpg */
-	background      : transparent url(images/survey007004.jpg) no-repeat top left;
+	
 	position        : absolute;
 	left            :   6.75pt;
 	top             :  59.25pt;
@@ -317,7 +298,7 @@ span#e5             { /* images/survey007004.jpg */
 	height          :  22.50pt;
 	}
 span#e4             { /* images/survey007003.jpg */
-	background      : transparent url(images/survey007003.jpg) no-repeat top left;
+	
 	position        : absolute;
 	left            :   6.75pt;
 	top             : 101.25pt;
@@ -325,7 +306,7 @@ span#e4             { /* images/survey007003.jpg */
 	height          :  22.50pt;
 	}
 span#e3             { /* images/survey007002.jpg */
-	background      : transparent url(images/survey007002.jpg) no-repeat top left;
+	
 	position        : absolute;
 	left            :   6.75pt;
 	top             : 152.25pt;
@@ -333,7 +314,7 @@ span#e3             { /* images/survey007002.jpg */
 	height          :  22.50pt;
 	}
 span#e2             { /* images/survey007001.jpg */
-	background      : transparent url(images/survey007001.jpg) no-repeat top left;
+	
 	position        : absolute;
 	left            :   6.75pt;
 	top             : 197.25pt;
@@ -348,8 +329,10 @@ div#e1              { /* Log Out! */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background-color: #00ccff;
-	background-image: url(images/survey007b01.jpg);
+        
+	background: whitesmoke;
+	opacity: 0.5;
+
 	position        : relative;
 	width           : 745.50pt;
 	height          : 576.00pt;
@@ -357,9 +340,13 @@ div#page            { /* Page Holder */
 	margin-left     : auto;
 	margin-right    : auto;
 	}
+        
+      
+        
+        
 body                { /* Page Body */
-	background-color: #00ccff;
-	text-align      : center;
+	background-image:url(images/child.jpg);
+        text-align      : center;
 	}
 
 

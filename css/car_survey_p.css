@@ -55,14 +55,16 @@
 	color           : #000000;
 	}
 img#e55             { /* images/survey008009.jpg */
-	position        : absolute;
+        
+        position        : absolute;
 	left            : 283.50pt;
 	top             :   7.50pt;
 	width           : 177.75pt;
 	height          : 126.00pt;
 	}
 h1#e54              { /* CAR SURVEY */
-	position        : absolute;
+	
+        position        : absolute;
 	left            : 283.50pt;
 	top             : 138.00pt;
 	width           : 177.75pt;
@@ -120,7 +122,7 @@ div#e47             { /* Contact Us */
 	height          :  19.50pt;
 	}
 span#e46            { /* images/survey008006.gif */
-	background      : transparent url(images/survey008006.gif) no-repeat top left;
+	
 	position        : absolute;
 	left            : 228.75pt;
 	top             : 206.25pt;
@@ -130,11 +132,12 @@ span#e46            { /* images/survey008006.gif */
 form#f45            { /* default.asp onsubmit="re... */
 	position        : absolute;
 	left            : 257.25pt;
+        
 	top             : 207.75pt;
 	width           : 400.50pt;
 	height          : 328.50pt;
 	}
-legend#e44          { /* Personal Details */
+label#e44          { /* Personal Details */
 	position        : absolute;
 	left            :  74.25pt;
 	top             :   0.00pt;
@@ -385,7 +388,7 @@ label#e7            { /* Categories */
 	height          :  15.75pt;
 	}
 span#e6             { /* images/survey008005.jpg */
-	background      : transparent url(images/survey008005.jpg) no-repeat top left;
+
 	position        : absolute;
 	left            :   6.75pt;
 	top             :   9.75pt;
@@ -393,15 +396,14 @@ span#e6             { /* images/survey008005.jpg */
 	height          :  22.50pt;
 	}
 span#e5             { /* images/survey008004.jpg */
-	background      : transparent url(images/survey008004.jpg) no-repeat top left;
-	position        : absolute;
+	
+        position        : absolute;
 	left            :   6.75pt;
 	top             :  59.25pt;
 	width           :  22.50pt;
 	height          :  22.50pt;
 	}
 span#e4             { /* images/survey008003.jpg */
-	background      : transparent url(images/survey008003.jpg) no-repeat top left;
 	position        : absolute;
 	left            :   6.75pt;
 	top             : 101.25pt;
@@ -409,7 +411,6 @@ span#e4             { /* images/survey008003.jpg */
 	height          :  22.50pt;
 	}
 span#e3             { /* images/survey008002.jpg */
-	background      : transparent url(images/survey008002.jpg) no-repeat top left;
 	position        : absolute;
 	left            :   6.75pt;
 	top             : 152.25pt;
@@ -417,33 +418,45 @@ span#e3             { /* images/survey008002.jpg */
 	height          :  22.50pt;
 	}
 span#e2             { /* images/survey008001.jpg */
-	background      : transparent url(images/survey008001.jpg) no-repeat top left;
-	position        : absolute;
+	
+        position        : absolute;
 	left            :   6.75pt;
 	top             : 197.25pt;
 	width           :  22.50pt;
 	height          :  22.50pt;
 	}
 div#e1              { /* Log Out! */
-	position        : absolute;
-	left            : 129.00pt;
+        	
+        position        : absolute;
+    	left            : 129.00pt;
 	top             : 531.75pt;
 	width           :  48.75pt;
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background-color: #00ccff;
-	background-image: url(images/survey008b01.jpg);
+
 	position        : relative;
+        z-index:1;
 	width           : 745.50pt;
 	height          : 576.00pt;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
 	}
+div#page1            { /* Page Holder */
+	background-color:whitesmoke;/*Background color*/
+        opacity: 0.5;/*Bacground opacity*/
+	position        : absolute ;
+        z-index:-1;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : 10%;
+        margin-right    : 10%;
+	}
 body                { /* Page Body */
-	background-color: #00ccff;
-	text-align      : center;
+	background-image:url(images/car.jpg);
+        text-align      : center;
 	}
 
 

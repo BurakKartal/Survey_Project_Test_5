@@ -1,6 +1,6 @@
 .cc30               { /* Common */
 	font            : bold 20pt 'Times New Roman', Book, Georgia, serif;
-	color           : #000000;
+	
 	}
 .cc31               { /* Common */
 	border          :   0.00pt none #808080;
@@ -12,15 +12,10 @@
 	padding         :   7.50pt;
 	border-width    :   0px;
 	}
-img#e6              { /* images/survey006004.jpg */
-	position        : absolute;
-	left            : 283.50pt;
-	top             :   7.50pt;
-	width           : 177.75pt;
-	height          : 126.00pt;
-	}
+
 div#e5              { /* &nbsp;&nbsp;&nbsp;&nbsp;... */
-	position        : absolute;
+	font            : bold 27pt 'Segoe UI Semibold', Book, Georgia, serif;
+        position        : absolute;
 	left            : 283.50pt;
 	top             : 138.00pt;
 	width           : 177.75pt;
@@ -57,8 +52,7 @@ img#e1              { /* images/survey006001.jpg */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background-color: #00ccff;
-	background-image: url(images/survey006b01.jpg);
+	
 	position        : relative;
 	width           : 745.50pt;
 	height          : 576.00pt;
@@ -67,7 +61,7 @@ div#page            { /* Page Holder */
 	margin-right    : auto;
 	}
 body                { /* Page Body */
-	background-color: #00ccff;
+	background-image:url(images/dunya.jpg);
 	text-align      : center;
 	}
 

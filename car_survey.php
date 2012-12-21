@@ -1,3 +1,6 @@
+<?php
+require_once('/securelogin.php');
+?>
 <html lang="en">
     <head>
         <title> CAR SURVEY </title>
@@ -5,53 +8,76 @@
         <meta http-equiv="Content-Style-Type" content="text/css;">
         <link rel="stylesheet" href="css/survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
         <link rel="stylesheet" href="css/car_survey_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
-        <script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <script src="js/survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"></link>
     </head>
 
-
     <body>
-        <?php
-        require_once('/securelogin.php');
-        ?>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Interviewer</a>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right">
+                            <a href="logout.php" class="navbar-link">Logout</a>
+                        </p>
+                        <ul class="nav">
+                            <li class="active"><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
+                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
+                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>      
+        <div id="page1">
+            
+        </div>
         <div id="page">
-            <img id="e55" name="e55" src="images/survey008009.jpg" title="" alt="survey008009.jpg" align="right" border="0"></a>
+
+
             <h1 id="e54" class="cc45">
-                CAR SURVEY
+                <span class="label label-important"> <center>CAR SURVEY</center></span>
             </h1>
             <span id="e53" class="cc46"></span>
             <span id="e52"></span>
             <div id="e51" class="cc47">
-                Categories
+                <span class="label label-warning"> <center>Categories</center></span>
             </div>
             <div id="e50" class="cc48">
-                Car Survey
+                <span class="label label-warning"> <center>Car Survey</center></span>
             </div>
             <div id="e49" class="cc48">
-                Music Survey
+                <span class="label label-warning"> <center>Music Survey</center></span>
             </div>
             <div id="e48" class="cc48">
-                Sport Survey
+                <span class="label label-warning"> <center>Sport Survey</center></span>
             </div>
             <div id="e47" class="cc48">
-                <a class="" href="contact_us.php">
-                    Contact Us</a>
+
+                <span class="label label-warning"> <center>Contact Us</center></span></a>
             </div>
             <span id="e46" class="cc49"></span>
             <form id="f45" action="car_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e45" class="cc50">
-                    <legend id="e44" class="cc51">
-                        Personal Details
-                    </legend><br>
+                    <label id="e44" class="cc51">
+                        <span class="label label-important"> <center>Contact Us</center></span></a>
+                    </label><br>
                     <label id="e43" class="cc52" for="e42">
-                        Name
+                        <span class="label label-success"> <center>Name</center></span></a>
                     </label>
                     <input id="e42" class="cc53" type="text" name="Name" title="Name" size="22"><br>
                     <label id="e41" class="cc52" for="e40">
-                        E-mail
+                        <span class="label label-success"> <center>E-mail</center></span></a>
                     </label>
                     <input id="e40" class="cc53" type="text" name="Email" title="E-mail" size="22"><br>
                     <label id="e39" class="cc52" for="e38">
-                        Country
+                        <span class="label label-success"> <center>Country</center></span></a>
                     </label>
                     <select id="e38" class="cc54" size="1" name="Country" title="Country">
                         <option> Afghanistan</option>
@@ -266,7 +292,7 @@
                         <option> Tobago</option>
                         <option> Trinidad</option>
                         <option> Tunisia</option>
-                        <option selected="selected"> Turkey</option>
+                        <option> Turkey</option>
                         <option> Turkmenistan</option>
                         <option> Turks</option>
                         <option> Tugalu</option>
@@ -274,7 +300,7 @@
                         <option> Ukraine</option>
                         <option> United Arab Emirates</option>
                         <option> United Kingdom</option>
-                        <option> United States</option>
+                        <option selected="selected">United States</option>
                         <option> Uruguay</option>
                         <option> USSR (former)</option>
                         <option> Uzbekistan</option>
@@ -293,14 +319,14 @@
                         <option> Zimbabwe</option>
                     </select><br>
                     <label id="e37" class="cc52" for="e36">
-                        Gender
+                        <span class="label label-success"> <center>Gender</center></span></a>
                     </label>
                     <select id="e36" class="cc54" size="1" name="Sex" title="Gender">
                         <option> Female</option>
                         <option> Male</option>
                     </select><br>
                     <label id="e35" class="cc52" for="e34">
-                        Age Group
+                        <span class="label label-success"> <center>Age Group</center></span></a>
                     </label>
                     <select id="e34" class="cc54" size="1" name="Age_Group" title="Age Group">
                         <option> under 18</option>
@@ -312,10 +338,10 @@
                         <option> 60 and over</option>
                     </select><br>
                     <label id="e33" class="cc51">
-                        Vehicle Details
+                        <span class="label label-important"> <center>Vehicle Details</center></span>
                     </label><br>
                     <label id="e32" class="cc52" for="e31">
-                        Type of Car
+                        <span class="label label-success"> <center>Type of Car</center></span>
                     </label>
                     <select id="e31" class="cc54" size="1" name="Car_Type" title="Type of Car">
                         <option> Sedan</option>
@@ -325,7 +351,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e30" class="cc52" for="e29">
-                        Seats
+                        <span class="label label-success"> <center>Seats</center></span>
                     </label>
                     <select id="e29" class="cc54" size="1" name="Seats" title="Seats">
                         <option> 2</option>
@@ -335,7 +361,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e28" class="cc52" for="e27">
-                        Doors
+                        <span class="label label-success"> <center>Doors</center></span>
                     </label>
                     <select id="e27" class="cc54" size="1" name="Doors" title="Doors">
                         <option> 2</option>
@@ -345,7 +371,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e26" class="cc52" for="e25">
-                        Cylinders
+                        <span class="label label-success"> <center>Cylinders</center></span>
                     </label>
                     <select id="e25" class="cc54" size="1" name="Cylinders" title="Cylinders">
                         <option> 4</option>
@@ -355,7 +381,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e24" class="cc52" for="e23">
-                        Fuel
+                        <span class="label label-success"> <center>Fuel</center></span>
                     </label>
                     <select id="e23" class="cc54" size="1" name="Fuel" title="Fuel">
                         <option> Gas</option>
@@ -365,7 +391,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e22" class="cc52" for="e21">
-                        Age of Car
+                        <span class="label label-success"> <center>Age of Car</center></span>
                     </label>
                     <select id="e21" class="cc54" size="1" name="Age_Of_Car" title="Age of Car">
                         <option> 1-3 years</option>
@@ -374,7 +400,7 @@
                         <option> &gt;10 years</option>
                     </select><br>
                     <label id="e20" class="cc52" for="e19">
-                        Colour
+                        <span class="label label-success"> <center>Colour</center></span>
                     </label>
                     <select id="e19" class="cc54" size="1" name="Color" title="Colour">
                         <option> Black</option>
@@ -387,42 +413,43 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e18" class="cc52" for="e17">
-                        Transmission
+                        <span class="label label-success"> <center>Transmission</center></span>
                     </label>
                     <select id="e17" class="cc54" size="1" name="Transmission" title="Transmission">
                         <option> Manual</option>
                         <option> Automatic</option>
                     </select><br>
                     <label id="e16" class="cc52" for="e15">
-                        Engine Position
+                        <span class="label label-success"> <center>Engine Position</center></span>
                     </label>
                     <select id="e15" class="cc54" size="1" name="Engine_Position" title="Engine Position">
                         <option> Front</option>
                         <option> Middle</option>
                         <option> Rear</option>
                     </select><br>
-                    <input id="e14" class="cc54" type="submit" title="Send Details" value="Send Details">
-                    <input id="e13" class="cc54" type="reset" title="Clear Details" value="Clear Details">
+
+                    <input id="e14" class="btn btn-primary btn-small" type="submit" title="Send Details" value="Send Details">
+                    <input id="e13" class="btn btn-primary btn-small" type="reset" title="Clear Details" value="Clear Details">
                 </fieldset>
             </form>
             <form id="f12" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e12" class="cc50">
                     <legend id="e11" class="cc55">
-                        Car Survey
+                        <span class="label label-inverse"> <center>Car Survey</center></span>
                     </legend><br>
                     <label id="e10" class="cc55">
-                        Music Survey
+                        <span class="label label-inverse"> <center>Music Survey</center></span>
                     </label><br>
                     <label id="e9" class="cc55">
-                        Sport Survey
+                        <span class="label label-inverse"> <center>Sport Survey</center></span>
                     </label><br>
                     <label id="e8" class="cc55">
                         <a href="contact_us.php">
-                            Contact Us</a>
+                            <span class="label label-inverse"> <center>Contact Us</center></span></a>
                     </label>
                     <label id="e7" class="cc55">
                         <a href="home.php">
-                            Categories</a>
+                            <span class="label label-inverse"> <center>Categories</center></span></a>
                     </label>
                     <span id="e6"></span>
                     <span id="e5"></span>
@@ -431,10 +458,10 @@
                     <span id="e2"></span>
                 </fieldset>
             </form>
-            <div id="e1" class="cc56">
-                <a href="logout.php">
-                    Log Out!</a>
-            </div>
+            <!-- <div id="e1" class="cc56">
+                    <a href="logout.php">
+                     <input id="e1"  class="btn btn-primary btn-medium" type="submit" title="LogOut" value="LogOut"><br></a>
+            </div>    Alternative logout button--> 
         </div>
     </body>
 </html>

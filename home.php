@@ -1,3 +1,6 @@
+<?php
+require_once('/securelogin.php');
+?>
 <html lang="en">
     <head>
         <title> CATEGORIES </title>
@@ -5,69 +8,95 @@
         <meta http-equiv="Content-Style-Type" content="text/css;">
         <link rel="stylesheet" href="css/survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
         <link rel="stylesheet" href="css/home_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
-        <script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <script src="js/survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
 
 
     <body>
-        <?php
-            require_once('/securelogin.php');
-        ?>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Interviewer</a>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right">
+                            <a href="logout.php" class="navbar-link">Logout</a>
+                        </p>
+                        <ul class="nav">
+                            <li class="active"><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
+                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
+                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+
         <div id="page">
-            <img id="e42" name="e42" src="images/survey007009.jpg" title="" alt="survey007009.jpg" align="right" border="0"></a>
+
+
             <h1 id="e41" class="cc33">
-                SURVEYS
+                <span class="label label-important"> <center>SURVEYS</center></span>     
             </h1>
+
             <span id="e40" class="cc34"></span>
             <span id="e39"></span>
             <div id="e38" class="cc35">
-                Categories
+
+                <span class="label label-warning"> <center>Categories</center></span>
             </div>
             <div id="e37" class="cc36">
-                Car Survey
+                <span class="label label-warning"> <center>Car Survey</center></span>
             </div>
             <div id="e36" class="cc36">
-                Music Survey
+                <span class="label label-warning"> <center>Music Survey</center></span>
             </div>
             <div id="e35" class="cc36">
-                Sport Survey
+                <span class="label label-warning"> <center>Sport Survey</center></span>
             </div>
             <div id="e34" class="cc36">
-                <a class="" href="contact_us.php">
-                    Contact Us</a>
+
+                <span class="label label-warning"> <center>Contact Us</center></span></a>
             </div>
             <span id="e33" class="cc37"></span>
             <form id="f32" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e32" class="cc38">
                     <legend id="e31" class="cc39">
-                        Contact Details
+                        <span class="label label-important"> <center>Contact Details</center></span>
                     </legend><br>
                     <label id="e30" class="cc40" for="e29">
-                        Company Name
+                        <span class="label label-success"> <center>Company Name</center></span>
                     </label>
                     <input id="e29" class="cc41" type="text" name="Company" title="Company Name" size="23"><br>
                     <label id="e28" class="cc40" for="e27">
-                        Your Position
+                        <span class="label label-success"> <center> Your Position</center></span>
                     </label>
                     <input id="e27" class="cc41" type="text" name="Position" title="Your Position" size="23"><br>
                     <label id="e26" class="cc40" for="e25">
-                        City
+                        <span class="label label-success"> <center>City</center></span>
                     </label>
                     <input id="e25" class="cc41" type="text" name="City" title="City" size="23"><br>
                     <label id="e24" class="cc40" for="e23">
-                        State
+                        <span class="label label-success"> <center>State</center></span>
                     </label>
                     <input id="e23" class="cc41" type="text" name="State" title="State" size="23"><br>
                     <label id="e22" class="cc40" for="e21">
-                        Phone
+                        <span class="label label-success"> <center>Phone</center></span>
                     </label>
                     <input id="e21" class="cc41" type="text" name="Phone" title="Phone" size="23"><br>
                     <label id="e20" class="cc40" for="e19">
-                        Website
+                        <span class="label label-success"> <center>Website</center></span>
                     </label>
                     <input id="e19" class="cc41" type="text" name="Web_Site" title="Website" size="23"><br>
                     <label id="e18" class="cc40" for="e17">
-                        Country
+                        <span class="label label-success"> <center>Country</center></span>
                     </label>
                     <select id="e17" class="cc42" size="1" name="Country" title="Country">
                         <option> Afghanistan</option>
@@ -309,36 +338,36 @@
                         <option> Zimbabwe</option>
                     </select><br>
                     <label id="e16" class="cc39">
-                        Comments
+                        <span class="label label-important"> <center>Comments</center></span>
                     </label><br>
                     <textarea id="e15" class="cc41" name="Comments" title="Comments" rows="2" cols="29">
 Enter Comments here...
                     </textarea><br>
-                    <input id="e14" class="cc42" type="submit" title="Send Details" value="Send Details">
-                    <input id="e13" class="cc42" type="reset" title="Clear Details" value="Clear Details">
+                    <input id="e14" class="btn btn-primary btn-small" type="submit" title="Send Details" value="Send Details">
+                    <input id="e13" class="btn btn-primary btn-small" type="reset" title="Clear Details" value="Clear Details">
                 </fieldset>
             </form>
             <form id="f12" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e12" class="cc38">
                     <legend id="e11" class="cc43">
                         <a href="car_survey.php">
-                            Car Survey</a>
+                            <span class="label label-inverse"> <center>Car Survey</center></span></a>
                     </legend><br>
                     <label id="e10" class="cc43">
                         <a href="music_survey.php">
-                            Music Survey</a>
+                            <span class="label label-inverse"> <center>Music Survey</center></span></a>
                     </label><br>
                     <label id="e9" class="cc43">
                         <a href="sport_survey.php">
-                            Sport Survey</a>
+                            <span class="label label-inverse"> <center>Sport Survey</center></span></a>
                     </label><br>
                     <label id="e8" class="cc43">
                         <a href="contact_us.php">
-                            Contact Us</a>
+                            <span class="label label-inverse"> <center>Contact Us</center></span></a>
                     </label>
                     <label id="e7" class="cc43">
-                        <a href="home.php">
-                            Home</a>
+                        <a href="#">
+                            <span class="label label-inverse"> <center>Home</center></span></a>
                     </label>
                     <span id="e6"></span>
                     <span id="e5"></span>
@@ -347,10 +376,10 @@ Enter Comments here...
                     <span id="e2"></span>
                 </fieldset>
             </form>
-            <div id="e1" class="cc44">
-                <a href="logout.php">
-                    Log Out!</a>
-            </div>
+            <!-- <div id="e1" class="cc44">
+                    <a href="logout.php">
+                    <input id="e1"  class="btn btn-primary btn-medium" data-loading-text="Please Wait..."type="submit" title="Log Out" value="Log Out"><br></a>
+            </div> Alternative logout button-->
         </div>
     </body>
 </html>

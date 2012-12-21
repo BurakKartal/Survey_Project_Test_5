@@ -72,7 +72,7 @@ h1#e24              { /* SURVEYS */
 	height          :  26.25pt;
 	}
 span#e23            { /* images/survey011003.gif */
-	background      : transparent url(images/survey011003.gif) no-repeat top left;
+	
 	position        : absolute;
 	left            :  72.75pt;
 	top             : 174.75pt;
@@ -80,7 +80,7 @@ span#e23            { /* images/survey011003.gif */
 	height          :   0.75pt;
 	}
 span#e22            { /* images/survey011002.gif */
-	background      : transparent url(images/survey011002.gif) no-repeat top left;
+	
 	position        : absolute;
 	left            :  72.75pt;
 	top             : 207.00pt;
@@ -158,7 +158,7 @@ legend#e12          { /* Name */
 	height          :  15.00pt;
 	}
 input#e11           { /* Text Name Name  */
-	background-color: #9fecff;
+	
 	position        : absolute;
 	left            :  -0.75pt;
 	top             :  21.00pt;
@@ -173,7 +173,7 @@ label#e10           { /* E-mail */
 	height          :  15.00pt;
 	}
 input#e9            { /* Text Email E-mail  */
-	background-color: #9fecff;
+	
 	position        : absolute;
 	left            :  -0.75pt;
 	top             :  57.00pt;
@@ -188,7 +188,7 @@ label#e8            { /* Address */
 	height          :  15.00pt;
 	}
 input#e7            { /* Text Address E-mail  */
-	background-color: #9fecff;
+	
 	position        : absolute;
 	left            :  -0.75pt;
 	top             :  93.00pt;
@@ -203,7 +203,7 @@ label#e6            { /* Comments */
 	height          :  15.00pt;
 	}
 textarea#e5         { /* Text Area Comments Comme... */
-	background-color: #9fecff;
+	
 	position        : absolute;
 	left            :  -0.75pt;
 	top             : 129.00pt;
@@ -211,7 +211,7 @@ textarea#e5         { /* Text Area Comments Comme... */
 	height          :  30.75pt;
 	}
 input#e4            { /* Submit Send Details  */
-	background-color: #9fecff;
+	
 	position        : absolute;
 	left            :  89.25pt;
 	top             : 167.25pt;
@@ -225,7 +225,7 @@ div#e3              { /* Kadir Has University */
 	height          :  16.50pt;
 	}
 span#e2             { /* images/survey011001.gif */
-	background      : transparent url(images/survey011001.gif) no-repeat top left;
+	
 	position        : absolute;
 	left            : 352.50pt;
 	top             : 207.75pt;
@@ -240,8 +240,8 @@ div#e1              { /* Log Out! */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background-color: #00ccff;
-	background-image: url(images/survey011b01.jpg);
+	background: whitesmoke;
+	opacity: 0.5;
 	position        : relative;
 	width           : 745.50pt;
 	height          : 576.00pt;
@@ -249,9 +249,11 @@ div#page            { /* Page Holder */
 	margin-left     : auto;
 	margin-right    : auto;
 	}
+        
+
 body                { /* Page Body */
-	background-color: #00ccff;
-	text-align      : center;
+	background-image:url(images/keyboard.jpg);
+        text-align      : center;
 	}
 
 

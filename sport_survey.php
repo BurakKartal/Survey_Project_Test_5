@@ -1,3 +1,6 @@
+<?php
+require_once('/securelogin.php');
+?>
 <html lang="en">
     <head>
         <title> SPORT SURVEY </title>
@@ -5,49 +8,70 @@
         <meta http-equiv="Content-Style-Type" content="text/css;">
         <link rel="stylesheet" href="css/survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
         <link rel="stylesheet" href="css/sport_survey_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
-        <script src="survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <script src="js/survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
 
 
     <body>
-        <?php
-            require_once('/securelogin.php');
-        ?>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Interviewer</a>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right">
+                            <a href="logout.php" class="navbar-link">Logout</a>
+                        </p>
+                        <ul class="nav">
+                            <li class="active"><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
+                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
+                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
         <div id="page">
-            <img id="e47" name="e47" src="images/survey010009.gif" title="" alt="survey010009.gif" align="right" border="0"></a>
+
+
             <h1 id="e46" class="cc69">
-                SPORT SURVEY
+                <span class="label label-important"> SPORT SURVEY </span>
             </h1>
             <span id="e45" class="cc70"></span>
             <span id="e44"></span>
             <div id="e43" class="cc71">
-                Categories
+                <span class="label label-warning">Categories </span>
             </div>
             <div id="e42" class="cc72">
-                Car Survey
+                <span class="label label-warning"> Car Survey </span>
             </div>
             <div id="e41" class="cc72">
-                Music Survey
+                <span class="label label-warning"> Music Survey </span>
             </div>
             <div id="e40" class="cc72">
-                Sport Survey
+                <span class="label label-warning"> Sport Survey</span>
             </div>
             <div id="e39" class="cc72">
-                <a class="" href="contact_us.php">
-                    Contact Us</a>
+
+                <span class="label label-warning"> Contact Us </span></a>
             </div>
             <span id="e38" class="cc73"></span>
-            <form id="f37" action="sport_result.php" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f37" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e37" class="cc74">
                     <label id="e36" class="cc75" for="e35">
-                        What is your sex?
+                        <span class="label label-success"> What is your sex? </span>
                     </label>
                     <select id="e35" class="cc75" size="1" name="Sex" title="Gender">
                         <option> Female</option>
                         <option> Male</option>
                     </select><br>
                     <label id="e34" class="cc75" for="e33">
-                        What is your age?
+                        <span class="label label-success"> What is your age? </span>
                     </label>
                     <select id="e33" class="cc75" size="1" name="Age_Group" title="Age Group">
                         <option> under 18</option>
@@ -59,7 +83,7 @@
                         <option> 60 and over</option>
                     </select><br>
                     <label id="e32" class="cc75" for="e31">
-                        What country do you live in?
+                        <span class="label label-success"> What country do you live in?</span>
                     </label>
                     <select id="e31" class="cc75" size="1" name="Country" title="Country">
                         <option> Afghanistan</option>
@@ -274,7 +298,7 @@
                         <option> Tobago</option>
                         <option> Trinidad</option>
                         <option> Tunisia</option>
-                        <option selected="selected"> Turkey</option>
+                        <option> Turkey</option>
                         <option> Turkmenistan</option>
                         <option> Turks</option>
                         <option> Tugalu</option>
@@ -282,7 +306,7 @@
                         <option> Ukraine</option>
                         <option> United Arab Emirates</option>
                         <option> United Kingdom</option>
-                        <option> United States</option>
+                        <option selected="selected">United States</option>
                         <option> Uruguay</option>
                         <option> USSR (former)</option>
                         <option> Uzbekistan</option>
@@ -301,18 +325,18 @@
                         <option> Zimbabwe</option>
                     </select><br>
                     <label id="e30" class="cc75" for="e29">
-                        Are you a member of a sport club?
+                        <span class="label label-success"> Are you a member of a sport club? </span>
                     </label>
                     <select id="e29" class="cc75" size="1" name="Sports_Club_Member" title="Are you a member of a sport club?">
                         <option> Yes</option>
                         <option> No</option>
                     </select><br>
                     <label id="e28" class="cc75" for="e27">
-                        Who is your favorite athlete?
+                        <span class="label label-success"> Who is your favorite athlete? </span>
                     </label>
                     <input id="e27" class="cc76" type="text" name="Favorite_Athlete" title="Who is your favorite athlete?" size="23"><br>
                     <label id="e26" class="cc75" for="e25">
-                        What is your favorite sport to compete in?
+                        <span class="label label-success"> What is your favorite sport to compete in? </span>
                     </label>
                     <select id="e25" class="cc75" size="1" name="Favorite_Sport_To_Compete_In" title="What is your favorite sport to compete in?">
                         <option> Archery</option>
@@ -342,7 +366,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e24" class="cc75" for="e23">
-                        How often do you compete in sports?
+                        <span class="label label-success"> How often do you compete in sports? </span>
                     </label>
                     <select id="e23" class="cc75" size="1" name="How_Often_Do_You_Compete" title="How often do you compete in sports?">
                         <option> Daily</option>
@@ -351,7 +375,7 @@
                         <option> Never</option>
                     </select><br>
                     <label id="e22" class="cc75" for="e21">
-                        What is your favorite sport to watch?
+                        <span class="label label-success"> What is your favorite sport to watch? </span>
                     </label>
                     <select id="e21" class="cc75" size="1" name="Favorite_Sport_To_Watch" title="What is your favorite sport to watch?">
                         <option> Archery</option>
@@ -381,7 +405,7 @@
                         <option> Other</option>
                     </select><br>
                     <label id="e20" class="cc75" for="e19">
-                        How often do you watch sports on TV?
+                        <span class="label label-success"> How often do you watch sports on TV? </span>
                     </label>
                     <select id="e19" class="cc75" size="1" name="How_Often_Do_You_Watch_On_TV" title="How often do you watch sports on TV?">
                         <option> Daily</option>
@@ -390,7 +414,7 @@
                         <option> Never</option>
                     </select><br>
                     <label id="e18" class="cc75" for="e17">
-                        How often do you attend organized sport events?
+                        <span class="label label-success"> How often do you attend organized sport events?</span>
                     </label>
                     <select id="e17" class="cc75" size="1" name="How_Often_Do_You_Attend_Events" title="How often do you attend organized sport events?">
                         <option> Daily</option>
@@ -399,7 +423,7 @@
                         <option> Never</option>
                     </select><br>
                     <label id="e16" class="cc75" for="e15">
-                        How often do you read sports pages in a paper?
+                        <span class="label label-success"> How often do you read sports pages in a paper? </span>
                     </label>
                     <select id="e15" class="cc75" size="1" name="How_Often_Do_You_Read_Sports_Papers" title="How often do you read sports pages in a paper?">
                         <option> Daily</option>
@@ -407,28 +431,29 @@
                         <option> From time to time</option>
                         <option> Never</option>
                     </select><br>
-                    <input id="e14" class="cc75" type="submit" title="Send Details" value="Send Details">
-                    <input id="e13" class="cc75" type="reset" title="Clear Details" value="Clear Details">
+
+                    <input id="e14" class="btn btn-primary btn-small" type="submit" title="Send Details" value="Send Details">
+                    <input id="e13" class="btn btn-primary btn-small" type="reset" title="Clear Details" value="Clear Details">
                 </fieldset>
             </form>
             <form id="f12" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e12" class="cc74">
                     <legend id="e11" class="cc77">
-                        Car Survey
+                        <span class="label label-inverse"> Car Survey </span>
                     </legend><br>
                     <label id="e10" class="cc77">
-                        Music Survey
+                        <span class="label label-inverse"> Music Survey </span>
                     </label><br>
                     <label id="e9" class="cc77">
-                        Sport Survey
+                        <span class="label label-inverse"> Sport Survey </span>
                     </label><br>
                     <label id="e8" class="cc77">
                         <a href="contact_us.php">
-                            Contact Us</a>
+                            <span class="label label-inverse"> Contact Us </span></a>
                     </label>
                     <label id="e7" class="cc77">
                         <a href="home.php">
-                            Categories</a>
+                            <span class="label label-inverse"> Categories</span></a>
                     </label>
                     <span id="e6"></span>
                     <span id="e5"></span>
@@ -437,10 +462,10 @@
                     <span id="e2"></span>
                 </fieldset>
             </form>
-            <div id="e1" class="cc78">
-                <a href="logout.php">
-                    Log Out!</a>
-            </div>
+            <!-- <div id="e1" class="cc78">
+                     <input id="e1"  class="btn btn-primary btn-medium" type="submit" title="Log Out" value="Log Out"><br><a href="logout.php">
+                    </a>
+            </div> -->
         </div>
     </body>
 </html>
