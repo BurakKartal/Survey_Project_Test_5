@@ -12,25 +12,6 @@
 
 
     <body onload="if(IE||V5) OnWeLoad()">
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#">Interviewer</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#"><i class="icon-home icon-white"></i>Home</a></li>
-                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
-                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
-                </div>
-            </div>
-        </div>
         <div id="page">
             <div class="heading1">
                 <br>
@@ -105,28 +86,6 @@
                 </fieldset>
 
             </form>
-            <div id="e7" class="cc08">
-                W
-            </div>
-            <div id="e6" class="cc08">
-                e
-            </div>
-            <div id="e5" class="cc08">
-                l
-            </div>
-            <div id="e4" class="cc08">
-                c
-            </div>
-            <div id="e3" class="cc08">
-                o
-            </div>
-            <div id="e2" class="cc08">
-                m
-            </div>
-            <div id="e1" class="cc08">
-                e
-            </div>
         </div>
-
     </body>
 </html>

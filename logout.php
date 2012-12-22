@@ -37,7 +37,7 @@
             ob_implicit_flush(true);
             ob_flush();
             sleep(2);
-            //session_destroy();
+            session_destroy();
             header('Location: index.php');
             ?>
 </body>

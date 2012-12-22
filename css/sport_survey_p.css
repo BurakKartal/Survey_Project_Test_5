@@ -55,7 +55,7 @@ img#e47             { /* images/survey010009.gif */
 h1#e46              { /* SPORT SURVEY */
 	position        : absolute;
 	left            : 283.50pt;
-	top             : 138.00pt;
+	top             : 88.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
 	}
@@ -120,8 +120,8 @@ span#e38            { /* images/survey010006.gif */
 	}
 form#f37            { /* default.asp onsubmit="re... */
 	position        : absolute;
-	left            : 257.25pt;
-	top             : 208.50pt;
+	left            : 156.50pt;
+	top             : 108.50pt;
 	width           : 399.75pt;
 	height          : 327.00pt;
 	}
@@ -370,15 +370,26 @@ div#e1              { /* Log Out! */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background-color:whitesmoke;/*Background color*/
-        opacity: 0.5;/*Bacground opacity*/
-        position        : relative;
+
+	position        : relative;
+        z-index:1;
 	width           : 745.50pt;
 	height          : 576.00pt;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
 	}
+div#page1            { /* Page Holder */
+	background-color:whitesmoke;/*Background color*/
+        opacity: 0.5;/*Bacground opacity*/
+	position        : absolute ;
+        z-index:-1;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : 10%;
+        margin-right    : 10%;
+	}      
 body                { /* Page Body */
 	background-image:url(images/golf.jpg);
         text-align      : center;

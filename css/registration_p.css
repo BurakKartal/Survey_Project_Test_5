@@ -216,9 +216,21 @@ input#e1            { /* Password password  */
 div#page            { /* Page Holder */
 	width           : 0.0pt;/*Background fix*/
 	height          : 0.0pt;/*Background fix*/
+}
+div#page1            { /* Page Holder */
+	background-color:whitesmoke;/*Background color*/
+        opacity: 0.2;/*Bacground opacity*/
+	position        : absolute ;
+        z-index:-1;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : 10%;
+        margin-right    : 10%;
 	}
+
 body                { /* Page Body */
-	background-image: url(images/metal.jpg);
+	background-image: url(images/fog.jpg);
 	text-align      : center;
        
 	}

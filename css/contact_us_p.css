@@ -51,6 +51,7 @@
 	color           : #003333;
 	}
 .cc89               { /* Common */
+        top             : 133.50pt;
 	font            : 12pt 'Arial', Helvetica, sans-serif;
 	color           : #000000;
 	}
@@ -67,7 +68,7 @@ img#e25             { /* images/survey011004.gif */
 h1#e24              { /* SURVEYS */
 	position        : absolute;
 	left            : 283.50pt;
-	top             : 138.00pt;
+	top             : 88.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
 	}
@@ -125,7 +126,7 @@ div#e17             { /* Contact Us */
 h4#e16              { /* Contact Us */
 	position        : absolute;
 	left            :  93.00pt;
-	top             : 223.50pt;
+	top             : 123.50pt;
 	width           : 246.75pt;
 	height          :  20.25pt;
 	}
@@ -139,18 +140,18 @@ h6#e15              {
 div#e14             {
 	position        : absolute;
 	left            : 377.25pt;
-	top             : 260.25pt;
+	top             : 183.50pt;
 	width           : 266.25pt;
 	height          : 262.50pt;
 	}
 form#f13            { /* mailto:your@address.here... */
 	position        : absolute;
-	left            : 143.25pt;
-	top             : 261.75pt;
+        left            : 156.50pt;
+	top             : 168.50pt;
 	width           : 181.50pt;
 	height          : 177.75pt;
 	}
-legend#e12          { /* Name */
+label#e12          { /* Name */
 	position        : absolute;
 	left            :   0.00pt;
 	top             :   3.75pt;
@@ -220,7 +221,7 @@ input#e4            { /* Submit Send Details  */
 div#e3              { /* Kadir Has University */
 	position        : absolute;
 	left            : 454.50pt;
-	top             : 223.50pt;
+	top             : 133.50pt;
 	width           : 109.50pt;
 	height          :  16.50pt;
 	}
@@ -240,16 +241,26 @@ div#e1              { /* Log Out! */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background: whitesmoke;
-	opacity: 0.5;
+
 	position        : relative;
+        z-index:1;
 	width           : 745.50pt;
 	height          : 576.00pt;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
 	}
-        
+div#page1            { /* Page Holder */
+	background-color:whitesmoke;/*Background color*/
+        opacity: 0.5;/*Bacground opacity*/
+	position        : absolute ;
+        z-index:-1;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : 10%;
+        margin-right    : 10%;
+	}
 
 body                { /* Page Body */
 	background-image:url(images/keyboard.jpg);

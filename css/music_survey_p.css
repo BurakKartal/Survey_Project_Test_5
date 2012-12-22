@@ -64,7 +64,7 @@ img#e71             { /* images/survey009009.jpg */
 h1#e70              { /* MUSIC SURVEY */
 	position        : absolute;
 	left            : 283.50pt;
-	top             : 138.00pt;
+	top             : 88.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
 	}
@@ -129,12 +129,12 @@ span#e62            { /* images/survey009006.gif */
 	}
 form#f61            { /* default.asp onsubmit="re... */
 	position        : absolute;
-	left            : 259.50pt;
-	top             : 206.25pt;
+        left            : 156.50pt;
+	top             : 108.50pt;
 	width           : 397.50pt;
 	height          : 333.75pt;
 	}
-legend#e60          { /* Personal Details */
+label#e60          { /* Personal Details */
 	position        : absolute;
 	left            :  61.50pt;
 	top             :   6.00pt;
@@ -453,7 +453,7 @@ form#f12            { /* mailto:your@address.here... */
 	width           : 131.25pt;
 	height          : 309.75pt;
 	}
-legend#e11          { /* Car Survey */
+label#e11          { /* Car Survey */
 	position        : absolute;
 	left            :  43.50pt;
 	top             :  61.50pt;
@@ -536,15 +536,26 @@ div#e1              { /* Log Out! */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-	background-color:whitesmoke;/*Background color*/
-        opacity: 0.5;/*Bacground opacity*/
+
 	position        : relative;
+        z-index:1;
 	width           : 745.50pt;
 	height          : 576.00pt;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
 	}
+div#page1            { /* Page Holder */
+	background-color:whitesmoke;/*Background color*/
+        opacity: 0.5;/*Bacground opacity*/
+	position        : absolute ;
+        z-index:-1;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : 10%;
+        margin-right    : 10%;
+	}      
 body                { /* Page Body */
 	background-image:url(images/gitar.jpg);
         text-align      : center;

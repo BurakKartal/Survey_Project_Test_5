@@ -5,7 +5,10 @@
     
 }
 
-
+.Uyarı{
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
 
 .cc01               { /* Common */
 	border          :   0.00pt none #000000;

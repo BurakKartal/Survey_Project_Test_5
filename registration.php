@@ -6,30 +6,12 @@
         <link rel="stylesheet" href="css/survey_g.css" type="text/css" media="screen,projection,print">	<!--// Document Style //-->
         <link rel="stylesheet" href="css/registration_p.css" type="text/css" media="screen,projection,print">	<!--// Page Style //-->
         <script src="js/survey_g.js" type="text/javascript"></script>		<!--// Document Script //-->
-         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-        </head>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
 
 
     <body>
-         <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="index.php">Interviewer</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#"><i class="icon-home icon-white"></i>Home</a></li>
-              <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
-              <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
+        <div id="page1"></div>
         <div id="page">
             <a href="index.php">
                 <img src="images/metal.jpg" title="" alt="metal.jpg" border="0"></a>
@@ -41,26 +23,26 @@
             <form id="f20" action="createuser.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e20" class="cc11">
                     <legend id="e19" class="cc12">
-                         <span class="label label-important"> Contact Details</span>
+                        <span class="label label-important"> Contact Details</span>
                     </legend><br>
                     <label id="e18" class="cc13" for="e17">
                         <span class="label label-info"> Name</span> 
                     </label>
                     <input id="e17" class="cc14" type="text" name="Name" title="Name" size="22"><br>
                     <label id="e16" class="cc13" for="e1">
-                         <span class="label label-info"> Password</span>
+                        <span class="label label-info"> Password</span>
                     </label>
                     <input id="e1" class="cc16" type="password" name="password" size="22"><br>
                     <label id="e15" class="cc13" for="e14">
-                         <span class="label label-info"> City</span>
+                        <span class="label label-info"> City</span>
                     </label>
                     <input id="e14" class="cc14" type="text" name="City" title="City" size="22"><br>
                     <label id="e13" class="cc13" for="e12">
-                         <span class="label label-info"> State</span>
+                        <span class="label label-info"> State</span>
                     </label>
                     <input id="e12" class="cc14" type="text" name="State" title="State" size="22"><br>
                     <label id="e11" class="cc13" for="e10">
-                         <span class="label label-info"> Postal code</span>
+                        <span class="label label-info"> Postal code</span>
                     </label>
                     <input id="e10" class="cc14" type="text" name="Zip" title="Postal code" size="22"><br>
                     <label id="e9" class="cc13" for="e8">
@@ -68,11 +50,11 @@
                     </label>
                     <input id="e8" class="cc14" type="text" name="Phone" title="Phone" size="22"><br>
                     <label id="e7" class="cc13" for="e6">
-                         <span class="label label-info"> E-mail</span>
+                        <span class="label label-info"> E-mail</span>
                     </label>
                     <input id="e6" class="cc14" type="text" name="Email" title="E-mail" size="22"><br>
                     <label id="e5" class="cc13" for="e4">
-                         <span class="label label-info"> Country</span>
+                        <span class="label label-info"> Country</span>
                     </label>
                     <select id="e4" class="cc15" size="1" name="Country" title="Country">
                         <option> Afghanistan</option>
@@ -313,10 +295,10 @@
                         <option> Zambia</option>
                         <option> Zimbabwe</option>
                     </select><br>
-                    
+
                     <input id="e3"  class="btn btn-primary btn-small" type="submit" title="Send Details" value="Send Details">
                     <input id="e2"  class="btn btn-primary btn-small" type="reset" title="Clear Details" value="Clear Details">
-                  
+
                 </fieldset>
             </form>
         </div>

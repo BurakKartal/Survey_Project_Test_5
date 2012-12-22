@@ -59,7 +59,7 @@ h1#e41              { /* SURVEYS */
 	font            : bold 20pt 'Arial', Helvetica, sans-serif;
         position        : absolute;
 	left            : 283.50pt;
-	top             : 138.00pt;
+	top             : 88.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
 	}
@@ -110,12 +110,12 @@ span#e33            { /* images/survey007006.gif  divided the list for the quest
 	}
 form#f32            { /* default.asp onsubmit="re... */
 	position        : absolute;
-	left            : 256.50pt;
-	top             : 208.50pt;
+	left            : 156.50pt;
+	top             : 108.50pt;
 	width           : 402.75pt;
 	height          : 330.00pt;
 	}
-legend#e31          { /* Contact Details */
+label#e31          { /* Contact Details */
 	position        : absolute;
 	left            :  99.75pt;
 	top             :   6.00pt;
@@ -246,7 +246,7 @@ form#f12            { /* mailto:your@address.here... */
 	width           : 131.25pt;
 	height          : 298.50pt;
 	}
-legend#e11          { /* Car Survey */
+label#e11          { /* Car Survey */
 	position        : absolute;
 	left            :  43.50pt;
 	top             :  61.50pt;
@@ -329,18 +329,26 @@ div#e1              { /* Log Out! */
 	height          :  16.50pt;
 	}
 div#page            { /* Page Holder */
-        
-	background: whitesmoke;
-	opacity: 0.5;
 
 	position        : relative;
+        z-index:1;
 	width           : 745.50pt;
 	height          : 576.00pt;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
 	}
-        
+div#page1            { /* Page Holder */
+	background-color:whitesmoke;/*Background color*/
+        opacity: 0.5;/*Bacground opacity*/
+	position        : absolute ;
+        z-index:-1;
+	width           : 745.50pt;
+	height          : 576.00pt;
+	text-align      : left;
+	margin-left     : 10%;
+        margin-right    : 10%;
+	}      
       
         
         

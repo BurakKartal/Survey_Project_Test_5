@@ -66,7 +66,7 @@ h1#e54              { /* CAR SURVEY */
 	
         position        : absolute;
 	left            : 283.50pt;
-	top             : 138.00pt;
+	top             : 88.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
 	}
@@ -131,9 +131,8 @@ span#e46            { /* images/survey008006.gif */
 	}
 form#f45            { /* default.asp onsubmit="re... */
 	position        : absolute;
-	left            : 257.25pt;
-        
-	top             : 207.75pt;
+	left            : 156.50pt;
+	top             : 118.50pt;
 	width           : 400.50pt;
 	height          : 328.50pt;
 	}
@@ -352,7 +351,7 @@ form#f12            { /* mailto:your@address.here... */
 	width           : 131.25pt;
 	height          : 304.50pt;
 	}
-legend#e11          { /* Car Survey */
+label#e11          { /* Car Survey */
 	position        : absolute;
 	left            :  43.50pt;
 	top             :  61.50pt;

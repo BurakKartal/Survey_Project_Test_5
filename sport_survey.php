@@ -21,47 +21,35 @@ require_once('/securelogin.php');
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Interviewer</a>
+                    <a class="brand" href="home.php">
+                        <?php
+                        echo $_SESSION['username'];
+                        ?>
+                    </a>
                     <div class="nav-collapse collapse">
                         <p class="navbar-text pull-right">
                             <a href="logout.php" class="navbar-link">Logout</a>
                         </p>
                         <ul class="nav">
-                            <li class="active"><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
-                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
-                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
+                            <li><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
+                            <li><a href="car_survey.php"><i class="icon-road icon-white"></i>Car Survey</a></li>
+                            <li><a href="music_survey.php"><i class="icon-music icon-white"></i>Music Survey</a></li>
+                            <li class="active"><a href="sport_survey.php"><i class="icon-globe icon-white"></i>Sport Survey</a></li>
+                            <li><a href="contact_us.php"><i class="icon-book icon-white"></i>Contact Us</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
         </div>
+        <div id="page1"></div>
         <div id="page">
-
-
             <h1 id="e46" class="cc69">
                 <span class="label label-important"> SPORT SURVEY </span>
             </h1>
-            <span id="e45" class="cc70"></span>
-            <span id="e44"></span>
-            <div id="e43" class="cc71">
-                <span class="label label-warning">Categories </span>
-            </div>
-            <div id="e42" class="cc72">
-                <span class="label label-warning"> Car Survey </span>
-            </div>
-            <div id="e41" class="cc72">
-                <span class="label label-warning"> Music Survey </span>
-            </div>
-            <div id="e40" class="cc72">
-                <span class="label label-warning"> Sport Survey</span>
-            </div>
-            <div id="e39" class="cc72">
-
-                <span class="label label-warning"> Contact Us </span></a>
-            </div>
-            <span id="e38" class="cc73"></span>
-            <form id="f37" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f37" action="sport_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e37" class="cc74">
                     <label id="e36" class="cc75" for="e35">
                         <span class="label label-success"> What is your sex? </span>
@@ -436,36 +424,7 @@ require_once('/securelogin.php');
                     <input id="e13" class="btn btn-primary btn-small" type="reset" title="Clear Details" value="Clear Details">
                 </fieldset>
             </form>
-            <form id="f12" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
-                <fieldset id="e12" class="cc74">
-                    <legend id="e11" class="cc77">
-                        <span class="label label-inverse"> Car Survey </span>
-                    </legend><br>
-                    <label id="e10" class="cc77">
-                        <span class="label label-inverse"> Music Survey </span>
-                    </label><br>
-                    <label id="e9" class="cc77">
-                        <span class="label label-inverse"> Sport Survey </span>
-                    </label><br>
-                    <label id="e8" class="cc77">
-                        <a href="contact_us.php">
-                            <span class="label label-inverse"> Contact Us </span></a>
-                    </label>
-                    <label id="e7" class="cc77">
-                        <a href="home.php">
-                            <span class="label label-inverse"> Categories</span></a>
-                    </label>
-                    <span id="e6"></span>
-                    <span id="e5"></span>
-                    <span id="e4"></span>
-                    <span id="e3"></span>
-                    <span id="e2"></span>
-                </fieldset>
-            </form>
-            <!-- <div id="e1" class="cc78">
-                     <input id="e1"  class="btn btn-primary btn-medium" type="submit" title="Log Out" value="Log Out"><br><a href="logout.php">
-                    </a>
-            </div> -->
+            
         </div>
     </body>
 </html>

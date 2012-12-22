@@ -14,31 +14,39 @@ require_once('/securelogin.php');
 
 
     <body>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container-fluid">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Interviewer</a>
+                    <a class="brand" href="home.php">
+                        <?php
+                        echo $_SESSION['username'];
+                        ?>
+                    </a>
                     <div class="nav-collapse collapse">
                         <p class="navbar-text pull-right">
                             <a href="logout.php" class="navbar-link">Logout</a>
                         </p>
                         <ul class="nav">
                             <li class="active"><a href="home.php"><i class="icon-home icon-white"></i>Home</a></li>
-                            <li><a href="#about"><i class="icon-book icon-white"></i>About</a></li>
-                            <li><a href="#faq"><i class="icon-star icon-white"></i>FAQ?</a></li>
+                            <li><a href="car_survey.php"><i class="icon-road icon-white"></i>Car Survey</a></li>
+                            <li><a href="music_survey.php"><i class="icon-music icon-white"></i>Music Survey</a></li>
+                            <li><a href="sport_survey.php"><i class="icon-globe icon-white"></i>Sport Survey</a></li>
+                            <li><a href="contact_us.php"><i class="icon-book icon-white"></i>Contact Us</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
         </div>
-
-
+        <div id="page1">
+            
+        </div>
         <div id="page">
 
 
@@ -46,31 +54,11 @@ require_once('/securelogin.php');
                 <span class="label label-important"> <center>SURVEYS</center></span>     
             </h1>
 
-            <span id="e40" class="cc34"></span>
-            <span id="e39"></span>
-            <div id="e38" class="cc35">
-
-                <span class="label label-warning"> <center>Categories</center></span>
-            </div>
-            <div id="e37" class="cc36">
-                <span class="label label-warning"> <center>Car Survey</center></span>
-            </div>
-            <div id="e36" class="cc36">
-                <span class="label label-warning"> <center>Music Survey</center></span>
-            </div>
-            <div id="e35" class="cc36">
-                <span class="label label-warning"> <center>Sport Survey</center></span>
-            </div>
-            <div id="e34" class="cc36">
-
-                <span class="label label-warning"> <center>Contact Us</center></span></a>
-            </div>
-            <span id="e33" class="cc37"></span>
             <form id="f32" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e32" class="cc38">
-                    <legend id="e31" class="cc39">
+                    <label id="e31" class="cc39">
                         <span class="label label-important"> <center>Contact Details</center></span>
-                    </legend><br>
+                    </label><br>
                     <label id="e30" class="cc40" for="e29">
                         <span class="label label-success"> <center>Company Name</center></span>
                     </label>
@@ -347,39 +335,6 @@ Enter Comments here...
                     <input id="e13" class="btn btn-primary btn-small" type="reset" title="Clear Details" value="Clear Details">
                 </fieldset>
             </form>
-            <form id="f12" action="mailto:your@address.here?subject=Request Form" method="post" onsubmit="return weCheckForm(this)">
-                <fieldset id="e12" class="cc38">
-                    <legend id="e11" class="cc43">
-                        <a href="car_survey.php">
-                            <span class="label label-inverse"> <center>Car Survey</center></span></a>
-                    </legend><br>
-                    <label id="e10" class="cc43">
-                        <a href="music_survey.php">
-                            <span class="label label-inverse"> <center>Music Survey</center></span></a>
-                    </label><br>
-                    <label id="e9" class="cc43">
-                        <a href="sport_survey.php">
-                            <span class="label label-inverse"> <center>Sport Survey</center></span></a>
-                    </label><br>
-                    <label id="e8" class="cc43">
-                        <a href="contact_us.php">
-                            <span class="label label-inverse"> <center>Contact Us</center></span></a>
-                    </label>
-                    <label id="e7" class="cc43">
-                        <a href="#">
-                            <span class="label label-inverse"> <center>Home</center></span></a>
-                    </label>
-                    <span id="e6"></span>
-                    <span id="e5"></span>
-                    <span id="e4"></span>
-                    <span id="e3"></span>
-                    <span id="e2"></span>
-                </fieldset>
-            </form>
-            <!-- <div id="e1" class="cc44">
-                    <a href="logout.php">
-                    <input id="e1"  class="btn btn-primary btn-medium" data-loading-text="Please Wait..."type="submit" title="Log Out" value="Log Out"><br></a>
-            </div> Alternative logout button-->
         </div>
     </body>
 </html>
