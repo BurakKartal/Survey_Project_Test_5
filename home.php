@@ -54,7 +54,7 @@ require_once('/securelogin.php');
                 <span class="label label-important"> <center>SURVEYS</center></span>     
             </h1>
 
-            <form id="f32" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f32" action="contact_details_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e32" class="cc38">
                     <label id="e31" class="cc39">
                         <span class="label label-important"> <center>Contact Details</center></span>

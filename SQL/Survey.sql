@@ -84,6 +84,26 @@ CREATE TABLE Music_Survey
         ContactMeAboutMusic varchar(30)
 );
 
+CREATE TABLE Movie_Survey
+(
+        userid int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        Movie_Frequency varchar(30),
+        AllFilms varchar(30),
+        Action varchar(30),
+        Adventure varchar(30),
+        Childrens varchar(30),
+        Comedy varchar(30),
+        Documentary varchar(30),
+        Drama varchar(30),
+        Family varchar(30),
+        Horror varchar(30),
+        Romance varchar(30),
+        Fiction varchar(30),
+        Thriller varchar(30),
+        Movies varchar(30)
+       
+);
+
 CREATE TABLE Sport_Survey
 (
         userid int NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -98,6 +118,19 @@ CREATE TABLE Sport_Survey
         oftenwatchtv varchar(30),
         oftensportevent varchar(30),
         oftensportpage varchar(30)
+);
+
+CREATE TABLE Contact_us_web
+(
+        userid int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        username varchar(30) NOT NULL,
+        address varchar(30) NOT NULL,
+        city varchar(50) NOT NULL,
+        states varchar(150),
+        postalcode varchar(50),
+        phone varchar(50),
+        email varchar(50),
+        country varchar(50)
 );
 
 CREATE TABLE Contact_us

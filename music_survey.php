@@ -51,7 +51,7 @@ require_once('/securelogin.php');
                 <span class="label label-important"> <center>MUSIC SURVEY</center></span>
             </h1>
 
-            <form id="f61" action="default.asp" method="post" onsubmit="return weCheckForm(this)">
+            <form id="f61" action="music_result.php" method="post" onsubmit="return weCheckForm(this)">
                 <fieldset id="e61" class="cc62">
                     <label id="e60" class="cc63">
                         <span class="label label-important"> <center>Personal Details</center></span> 
