@@ -14,12 +14,13 @@
 	}
 
 div#e5              { /* &nbsp;&nbsp;&nbsp;&nbsp;... */
-	font            : bold 27pt 'Segoe UI Semibold', Book, Georgia, serif;
+	font            : bold 27pt 'Segoe UI Semibold', Book, Georgia, serif ;
         position        : absolute;
 	left            : 283.50pt;
 	top             : 138.00pt;
 	width           : 177.75pt;
 	height          :  26.25pt;
+        
 	}
 span#e4             { /* images/survey006003.gif */
 	background      : transparent url(images/survey006003.gif) no-repeat top left;

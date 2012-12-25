@@ -17,7 +17,7 @@
 	<a href="index.php">
            
 	<div id="e5" class="cc30">
-		&nbsp;&nbsp;&nbsp;&nbsp;Logout !
+		&nbsp;&nbsp;&nbsp;&nbsp;<p style ="color : white;">Logout !</p>
         </div>
             
 	<span id="e4" class="cc31"></span>

@@ -13,11 +13,10 @@
 <body>
 
 <div id="page">
-		<img id="e6" name="e6" src="images/survey004004.jpg" title="" alt="survey004004.jpg" align="right" border="0"></a>
 	<div id="e5" class="cc30">
             </br>
             </br>
-            Save Successful !
+            <p style ="color : white;">Save Successful !</p>
 	</div>
 	<span id="e4" class="cc31"></span>
 	<span id="e3"></span>
